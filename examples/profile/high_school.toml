@@ -1,0 +1,7 @@
+[[high_school]]
+name = "EXAMPLE HIGH SCHOOL"
+from = "2004-09"
+to = "2008-06"
+diploma = "High School Diploma"
+diploma_date = "2008-06"
+term_type = "Semester"

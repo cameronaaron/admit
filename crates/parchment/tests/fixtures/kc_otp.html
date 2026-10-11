@@ -1,0 +1,62 @@
+    <!DOCTYPE html>
+    <html class="login-pf" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="robots" content="noindex, nofollow">
+                <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <title>Sign in to Parchment</title>
+        <meta name="msapplication-TileColor" content="#0093b4">
+        <meta name="theme-color" content="#ffffff">
+    <SCRIPT> if (typeof history.replaceState === 'function') {  history.replaceState({}, "some title", "https://auth.parchment.com/auth/realms/parchment/login-actions/authenticate?execution=EX&client_id=sso-ui&tab_id=TAB&client_data=CD"); }</SCRIPT></head>
+    <body class="">
+    <div class="login-pf-page">
+        <div id="kc-header" class="login-pf-page-header">
+            <div id="kc-header-wrapper"
+                 class=""><div class="kc-logo-text" style="background:none"><img src="https://cdn.parchment.com/assets/images/parchment-logo.svg" alt="Parchment By Instructure" /></div></div>
+        </div>
+        <div class="card-pf">
+            <header class="login-pf-header">
+                        <div id="kc-username" class="form-group">
+                            <label id="kc-attempted-username">STUDENT@SCHOOL.EXAMPLE</label>
+                            <a id="reset-login" href="/auth/realms/parchment/login-actions/restart?client_id=sso-ui&amp;tab_id=TAB&amp;client_data=CD&amp;skip_logout=false" aria-label="Restart login">
+                                <div class="kc-login-tooltip">
+                                    <i class="pficon pficon-arrow fa"></i>
+                                    <span class="kc-tooltip-text">Restart login</span>
+                                </div>
+                            </a>
+                        </div>
+            </header>
+            <div id="kc-content" role="main">
+                <div id="kc-content-wrapper">
+      <p>A verification code has been sent to your email. Enter it below to continue.</p>
+      <form id="kc-otp-login-form" class="form-horizontal" action="https://auth.parchment.com/auth/realms/parchment/login-actions/authenticate?session_code=SC&amp;execution=EX&amp;client_id=sso-ui&amp;tab_id=TAB&amp;client_data=CD" method="post">
+        <div class="form-group">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <label for="otp" class="pf-c-form__label pf-c-form__label-text">One-time code</label>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <input id="otp" name="otp" autocomplete="off" type="text" class="pf-c-form-control" autofocus aria-invalid=""/>
+          </div>
+        </div>
+        <div class="form-group">
+          <div id="kc-form-options" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="">
+            </div>
+          </div>
+          <div id="kc-form-buttons" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <input class="pf-c-button pf-m-primary btn-lg" name="submit" id="kc-submit" type="submit" value="Submit" />
+            <input class="pf-c-button pf-m-primary btn-lg" name="resend" id="kc-resend" type="submit" value="Resend" />
+          </div>
+        </div>
+      </form>
+                        <div id="kc-info" class="login-pf-signup">
+                            <div id="kc-info-wrapper" class="">
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>

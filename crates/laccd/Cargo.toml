@@ -1,0 +1,18 @@
+[package]
+name = "admit-laccd"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dependencies]
+admit-html.workspace = true
+reqwest = { workspace = true, features = ["cookies", "form"] }
+thiserror.workspace = true
+
+[dev-dependencies]
+tokio.workspace = true
+wiremock.workspace = true
+
+[lints]
+workspace = true

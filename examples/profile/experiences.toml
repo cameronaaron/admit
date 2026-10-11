@@ -1,0 +1,17 @@
+[[experience]]
+kind = "patient-care"
+organization = "Example Community Clinic"
+title = "Medical Assistant"
+state = "California"
+start = "2022-03-01"
+end = "2024-06-30"
+current = false
+status = "Full time"
+hours_per_week = 40
+weeks = 120
+total_hours = 4800
+compensated = true
+volunteer = false
+description = """
+•Roomed patients, took vital signs and updated charts
+•Scheduled follow-up visits and referrals"""

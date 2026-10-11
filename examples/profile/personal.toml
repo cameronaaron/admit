@@ -1,0 +1,19 @@
+# A fictional applicant. Copy examples/ to start your own profile; any section
+# file left out is an empty section.
+legal_name = "Jordan Avery Rivera"
+email = "jordan@example.org"
+phone = "+1 555-010-0100"
+birthdate = "1990-01-15"
+birth_city = "Lake Forest"
+birth_state = "California"
+birth_country = "United States"
+citizenship = "United States"
+california_resident = true
+
+[[address]]
+kind = "permanent"
+street = "120 Maple Ave Apt 4" # oss-publish:allow: fictional
+city = "Pine Valley"
+region = "CA"
+country = "US"
+postal = "90000-1234"

@@ -1,0 +1,1111 @@
+{
+ "_note": "Captured 2026-10-07 (UC Davis MEPN): the questions before and after a save that answered every required question, including three textareas (the essay holds the placeholder \"test\"), the impact check, and the PUT that marked the section complete.",
+ "before": {
+  "sectionId": 0,
+  "supplementalSectionIds": {
+   "Questions": 2011611
+  },
+  "statusCompleted": false,
+  "overview": null,
+  "orgQuestionsOverview": null,
+  "orgQuestionsEnabled": false,
+  "questionConditionsMet": [],
+  "questionGroups": [
+   {
+    "title": "Essay Question ",
+    "overview": null,
+    "questions": [
+     {
+      "id": 3110250,
+      "referenceQuestionId": 0,
+      "question": "In the space provided, write a brief statement expressing your motivation or desire to become a Registered Nurse. Please address the following in your response: \n\n1. Describe those things about yourself that have prepared you for success in graduate school and as a future leader in nursing and health care. \n\n2. Reflect on your alignment with the mission of the Betty Irene Moore School of Nursing (found at http://nursing.ucdavis.edu). You may consider highlighting your academic preparation and motivation; interests, specializations and career goals; and fit for pursuing graduate study at UC Davis. \n\n3. Discuss how the Master of Science in Nursing degree will support you in achieving your goals. Relate your future goals to the vision, mission, and core values of the Betty Irene Moore School of Nursing at UC Davis (found at http://nursing.ucdavis.edu). \n\nResponse cannot exceed 5,000 characters including spaces.",
+      "input": {
+       "required": true,
+       "type": "textarea",
+       "minChars": null,
+       "maxLength": 5000,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35201963,
+        "text": null,
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201963"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 1,
+      "hidden": false
+     }
+    ],
+    "visibilityRules": [],
+    "pairedConditionsRequired": {},
+    "supplementalSectionId": 2011611,
+    "id": "customQuestions",
+    "locked": true,
+    "orgLevel": false
+   },
+   {
+    "title": "Background Questions",
+    "overview": null,
+    "questions": [
+     {
+      "id": 3110246,
+      "referenceQuestionId": 0,
+      "question": "Have you ever enrolled in a graduate program and not completed your intended degree objective?",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35201950,
+        "text": "No",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201950"
+       },
+       {
+        "id": 35201948,
+        "text": "Yes",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201948"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 1,
+      "hidden": false
+     },
+     {
+      "id": 3110248,
+      "referenceQuestionId": 0,
+      "question": "Please explain in detail the circumstances for terminating your graduate program enrollment. Include the institution name and relevant dates.",
+      "input": {
+       "required": true,
+       "type": "textarea",
+       "minChars": null,
+       "maxLength": 1000,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35201957,
+        "text": null,
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201957"
+       }
+      ],
+      "visibilityRules": [
+       {
+        "operator": "or",
+        "rules": [
+         "35201948"
+        ]
+       }
+      ],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 2,
+      "hidden": false
+     },
+     {
+      "id": 3110247,
+      "referenceQuestionId": 0,
+      "question": "Have you completed a formal post-baccalaureate program through an accredited institution, such as a pre-nursing or healthcare preparation post-bac? (DOES NOT include graduate degrees, secondary bachelor's degrees, clinical certificates, or completing prerequisites at a community college)",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35201952,
+        "text": "No",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201952"
+       },
+       {
+        "id": 35201954,
+        "text": "Yes",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201954"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 3,
+      "hidden": false
+     },
+     {
+      "id": 3110249,
+      "referenceQuestionId": 0,
+      "question": "Please list the program and institution name. Do not include graduate degrees, secondary bachelor's degrees, clinical certificates, or completion of prerequisites at a community college.",
+      "input": {
+       "required": true,
+       "type": "textarea",
+       "minChars": null,
+       "maxLength": 300,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35201960,
+        "text": null,
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201960"
+       }
+      ],
+      "visibilityRules": [
+       {
+        "operator": "or",
+        "rules": [
+         "35201954"
+        ]
+       }
+      ],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 4,
+      "hidden": false
+     },
+     {
+      "id": 3110244,
+      "referenceQuestionId": 0,
+      "question": "Please share circumstances that may have negatively impacted your undergraduate academic performance. You may use this opportunity to explain the situation and what you did to overcome obstacles or challenges.",
+      "input": {
+       "required": true,
+       "type": "textarea",
+       "minChars": null,
+       "maxLength": 1000,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35201945,
+        "text": null,
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201945"
+       }
+      ],
+      "visibilityRules": [
+       {
+        "operator": "or",
+        "rules": [
+         "35201954"
+        ]
+       }
+      ],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 5,
+      "hidden": false
+     }
+    ],
+    "visibilityRules": [],
+    "pairedConditionsRequired": {},
+    "supplementalSectionId": 2011611,
+    "id": "customQuestions",
+    "locked": true,
+    "orgLevel": false
+   }
+  ],
+  "orgQuestionsComplete": false,
+  "orgQuestionsLocked": false,
+  "programAttributesChanged": false,
+  "programDeleted": false,
+  "programIdsToDelete": null,
+  "impactRules": null,
+  "organizationQuestionAnswers": {},
+  "programQuestionAnswers": null,
+  "programPaid": false,
+  "programUndelivered": false
+ },
+ "after": {
+  "sectionId": 0,
+  "supplementalSectionIds": {
+   "Questions": 2011611
+  },
+  "statusCompleted": true,
+  "overview": null,
+  "orgQuestionsOverview": null,
+  "orgQuestionsEnabled": false,
+  "questionConditionsMet": [],
+  "questionGroups": [
+   {
+    "title": "Essay Question ",
+    "overview": null,
+    "questions": [
+     {
+      "id": 3110250,
+      "referenceQuestionId": 0,
+      "question": "In the space provided, write a brief statement expressing your motivation or desire to become a Registered Nurse. Please address the following in your response: \n\n1. Describe those things about yourself that have prepared you for success in graduate school and as a future leader in nursing and health care. \n\n2. Reflect on your alignment with the mission of the Betty Irene Moore School of Nursing (found at http://nursing.ucdavis.edu). You may consider highlighting your academic preparation and motivation; interests, specializations and career goals; and fit for pursuing graduate study at UC Davis. \n\n3. Discuss how the Master of Science in Nursing degree will support you in achieving your goals. Relate your future goals to the vision, mission, and core values of the Betty Irene Moore School of Nursing at UC Davis (found at http://nursing.ucdavis.edu). \n\nResponse cannot exceed 5,000 characters including spaces.",
+      "input": {
+       "required": true,
+       "type": "textarea",
+       "minChars": null,
+       "maxLength": 5000,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [
+       "test"
+      ],
+      "answerOptions": [
+       {
+        "id": 35201963,
+        "text": null,
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201963"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 1,
+      "hidden": false
+     }
+    ],
+    "visibilityRules": [],
+    "pairedConditionsRequired": {},
+    "supplementalSectionId": 2011611,
+    "id": "customQuestions",
+    "locked": true,
+    "orgLevel": false
+   },
+   {
+    "title": "Background Questions",
+    "overview": null,
+    "questions": [
+     {
+      "id": 3110246,
+      "referenceQuestionId": 0,
+      "question": "Have you ever enrolled in a graduate program and not completed your intended degree objective?",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [
+       "35201950"
+      ],
+      "answerOptions": [
+       {
+        "id": 35201950,
+        "text": "No",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201950"
+       },
+       {
+        "id": 35201948,
+        "text": "Yes",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201948"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 1,
+      "hidden": false
+     },
+     {
+      "id": 3110248,
+      "referenceQuestionId": 0,
+      "question": "Please explain in detail the circumstances for terminating your graduate program enrollment. Include the institution name and relevant dates.",
+      "input": {
+       "required": true,
+       "type": "textarea",
+       "minChars": null,
+       "maxLength": 1000,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35201957,
+        "text": null,
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201957"
+       }
+      ],
+      "visibilityRules": [
+       {
+        "operator": "or",
+        "rules": [
+         "35201948"
+        ]
+       }
+      ],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 2,
+      "hidden": false
+     },
+     {
+      "id": 3110247,
+      "referenceQuestionId": 0,
+      "question": "Have you completed a formal post-baccalaureate program through an accredited institution, such as a pre-nursing or healthcare preparation post-bac? (DOES NOT include graduate degrees, secondary bachelor's degrees, clinical certificates, or completing prerequisites at a community college)",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [
+       "35201954"
+      ],
+      "answerOptions": [
+       {
+        "id": 35201952,
+        "text": "No",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201952"
+       },
+       {
+        "id": 35201954,
+        "text": "Yes",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201954"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 3,
+      "hidden": false
+     },
+     {
+      "id": 3110249,
+      "referenceQuestionId": 0,
+      "question": "Please list the program and institution name. Do not include graduate degrees, secondary bachelor's degrees, clinical certificates, or completion of prerequisites at a community college.",
+      "input": {
+       "required": true,
+       "type": "textarea",
+       "minChars": null,
+       "maxLength": 300,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [
+       "LACCD"
+      ],
+      "answerOptions": [
+       {
+        "id": 35201960,
+        "text": null,
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201960"
+       }
+      ],
+      "visibilityRules": [
+       {
+        "operator": "or",
+        "rules": [
+         "35201954"
+        ]
+       }
+      ],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 4,
+      "hidden": false
+     },
+     {
+      "id": 3110244,
+      "referenceQuestionId": 0,
+      "question": "Please share circumstances that may have negatively impacted your undergraduate academic performance. You may use this opportunity to explain the situation and what you did to overcome obstacles or challenges.",
+      "input": {
+       "required": true,
+       "type": "textarea",
+       "minChars": null,
+       "maxLength": 1000,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [
+       "N/A"
+      ],
+      "answerOptions": [
+       {
+        "id": 35201945,
+        "text": null,
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35201945"
+       }
+      ],
+      "visibilityRules": [
+       {
+        "operator": "or",
+        "rules": [
+         "35201954"
+        ]
+       }
+      ],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 5,
+      "hidden": false
+     }
+    ],
+    "visibilityRules": [],
+    "pairedConditionsRequired": {},
+    "supplementalSectionId": 2011611,
+    "id": "customQuestions",
+    "locked": true,
+    "orgLevel": false
+   }
+  ],
+  "orgQuestionsComplete": false,
+  "orgQuestionsLocked": false,
+  "programAttributesChanged": false,
+  "programDeleted": false,
+  "programIdsToDelete": null,
+  "impactRules": null,
+  "organizationQuestionAnswers": {},
+  "programQuestionAnswers": null,
+  "programPaid": false,
+  "programUndelivered": false
+ },
+ "save": {
+  "request": {
+   "sectionId": 0,
+   "supplementalSectionIds": {
+    "Questions": 2011611
+   },
+   "statusCompleted": false,
+   "orgQuestionsEnabled": false,
+   "questionConditionsMet": [],
+   "questionGroups": [
+    {
+     "title": "Essay Question ",
+     "questions": [
+      {
+       "id": 3110250,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "textarea",
+        "minChars": null,
+        "maxLength": 5000,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "test"
+       ],
+       "answerOptions": [],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 1,
+       "hidden": false
+      }
+     ],
+     "visibilityRules": [],
+     "pairedConditionsRequired": {},
+     "supplementalSectionId": 2011611,
+     "id": "customQuestions",
+     "locked": true,
+     "orgLevel": false,
+     "additionalQuestions": []
+    },
+    {
+     "title": "Background Questions",
+     "questions": [
+      {
+       "id": 3110246,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35201950"
+       ],
+       "answerOptions": [
+        {
+         "id": 35201950,
+         "seqNum": 0,
+         "expirationDate": null,
+         "code": "35201950"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 1,
+       "hidden": false
+      },
+      {
+       "id": 3110248,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "textarea",
+        "minChars": null,
+        "maxLength": 1000,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [
+        {
+         "operator": "or",
+         "rules": [
+          "35201948"
+         ]
+        }
+       ],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 2,
+       "hidden": false
+      },
+      {
+       "id": 3110247,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35201954"
+       ],
+       "answerOptions": [
+        {
+         "id": 35201954,
+         "seqNum": 0,
+         "expirationDate": null,
+         "code": "35201954"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 3,
+       "hidden": false
+      },
+      {
+       "id": 3110249,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "textarea",
+        "minChars": null,
+        "maxLength": 300,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "LACCD"
+       ],
+       "answerOptions": [],
+       "visibilityRules": [
+        {
+         "operator": "or",
+         "rules": [
+          "35201954"
+         ]
+        }
+       ],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 4,
+       "hidden": false
+      },
+      {
+       "id": 3110244,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "textarea",
+        "minChars": null,
+        "maxLength": 1000,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "N/A"
+       ],
+       "answerOptions": [],
+       "visibilityRules": [
+        {
+         "operator": "or",
+         "rules": [
+          "35201954"
+         ]
+        }
+       ],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 5,
+       "hidden": false
+      }
+     ],
+     "visibilityRules": [],
+     "pairedConditionsRequired": {},
+     "supplementalSectionId": 2011611,
+     "id": "customQuestions",
+     "locked": true,
+     "orgLevel": false,
+     "additionalQuestions": []
+    }
+   ],
+   "orgQuestionsComplete": false,
+   "orgQuestionsLocked": false,
+   "programAttributesChanged": false,
+   "programDeleted": false,
+   "programIdsToDelete": [],
+   "impactRules": {},
+   "organizationQuestionAnswers": {},
+   "programQuestionAnswers": null,
+   "programPaid": false,
+   "programUndelivered": false
+  },
+  "response": {
+   "sectionId": 0,
+   "supplementalSectionIds": {
+    "Questions": 2011611
+   },
+   "statusCompleted": false,
+   "overview": null,
+   "orgQuestionsOverview": null,
+   "orgQuestionsEnabled": false,
+   "questionConditionsMet": [],
+   "questionGroups": [
+    {
+     "title": "Essay Question ",
+     "overview": null,
+     "questions": [
+      {
+       "id": 3110250,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "textarea",
+        "minChars": null,
+        "maxLength": 5000,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "test"
+       ],
+       "answerOptions": [],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 1,
+       "hidden": false
+      }
+     ],
+     "visibilityRules": [],
+     "pairedConditionsRequired": {},
+     "supplementalSectionId": 2011611,
+     "id": "customQuestions",
+     "locked": true,
+     "orgLevel": false
+    },
+    {
+     "title": "Background Questions",
+     "overview": null,
+     "questions": [
+      {
+       "id": 3110246,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35201950"
+       ],
+       "answerOptions": [
+        {
+         "id": 35201950,
+         "text": null,
+         "seqNum": 0,
+         "expirationDate": null,
+         "exportCode": null,
+         "code": "35201950"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 1,
+       "hidden": false
+      },
+      {
+       "id": 3110248,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "textarea",
+        "minChars": null,
+        "maxLength": 1000,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [
+        {
+         "operator": "or",
+         "rules": [
+          "35201948"
+         ]
+        }
+       ],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 2,
+       "hidden": false
+      },
+      {
+       "id": 3110247,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35201954"
+       ],
+       "answerOptions": [
+        {
+         "id": 35201954,
+         "text": null,
+         "seqNum": 0,
+         "expirationDate": null,
+         "exportCode": null,
+         "code": "35201954"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 3,
+       "hidden": false
+      },
+      {
+       "id": 3110249,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "textarea",
+        "minChars": null,
+        "maxLength": 300,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "LACCD"
+       ],
+       "answerOptions": [],
+       "visibilityRules": [
+        {
+         "operator": "or",
+         "rules": [
+          "35201954"
+         ]
+        }
+       ],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 4,
+       "hidden": false
+      },
+      {
+       "id": 3110244,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "textarea",
+        "minChars": null,
+        "maxLength": 1000,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "N/A"
+       ],
+       "answerOptions": [],
+       "visibilityRules": [
+        {
+         "operator": "or",
+         "rules": [
+          "35201954"
+         ]
+        }
+       ],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 5,
+       "hidden": false
+      }
+     ],
+     "visibilityRules": [],
+     "pairedConditionsRequired": {},
+     "supplementalSectionId": 2011611,
+     "id": "customQuestions",
+     "locked": true,
+     "orgLevel": false
+    }
+   ],
+   "orgQuestionsComplete": false,
+   "orgQuestionsLocked": false,
+   "programAttributesChanged": false,
+   "programDeleted": false,
+   "programIdsToDelete": [],
+   "impactRules": {},
+   "organizationQuestionAnswers": {},
+   "programQuestionAnswers": null,
+   "programPaid": false,
+   "programUndelivered": false
+  }
+ },
+ "impact": {
+  "request": {
+   "3110246": [
+    "35201950"
+   ],
+   "3110247": [
+    "35201954"
+   ]
+  },
+  "response": {
+   "extendedProfileResponse": {
+    "applicantTypeProgramSelectionImpactResponse": {
+     "programSelectionImpacts": [],
+     "allDelete": false
+    },
+    "applicationFormSectionDTOs": null,
+    "conflictedPrograms": [],
+    "programSelected": []
+   },
+   "applicationImpactRulesResponse": {},
+   "hasImpacts": false,
+   "hasImpactsOnSubmittedProgramsSpecialties": []
+  }
+ },
+ "complete": {
+  "path": "/updateProgramMaterialsStatus/programSelected/79437728/section/2011611/optOut/false/completionStatus/true",
+  "response": {
+   "id": 2011611,
+   "title": null,
+   "name": "Questions",
+   "completed": true,
+   "overView": null,
+   "needsReview": false,
+   "optOut": false
+  }
+ }
+}

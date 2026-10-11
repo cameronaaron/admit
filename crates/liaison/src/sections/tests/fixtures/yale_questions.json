@@ -1,0 +1,2436 @@
+{
+ "_note": "Captured 2026-10-07 (Yale GEPN): the questions before and after one save of seven choices, the save the form sent, and the impact check before it.",
+ "before": {
+  "sectionId": 0,
+  "supplementalSectionIds": {
+   "Questions": 2013510
+  },
+  "statusCompleted": false,
+  "overview": "",
+  "orgQuestionsOverview": null,
+  "orgQuestionsEnabled": false,
+  "questionConditionsMet": [],
+  "questionGroups": [
+   {
+    "title": "Specialty Selection",
+    "overview": null,
+    "questions": [
+     {
+      "id": 3113128,
+      "referenceQuestionId": 0,
+      "question": "<p>All applicants must select a specialty at the time of application. This selection is binding and will determine the specialty for which your application is considered. Because changes may not be possible after submission, please choose carefully.<br/></p>",
+      "input": {
+       "required": false,
+       "type": "sectiontextbox",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 1,
+      "hidden": false
+     },
+     {
+      "id": 3113129,
+      "referenceQuestionId": 0,
+      "question": "Please select your specialty below.",
+      "input": {
+       "required": true,
+       "type": "dropdown",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208959,
+        "text": "Adult/Gerontology - Acute Care Nurse Practitioner (AGACNP)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "agacnp",
+        "code": "35208959"
+       },
+       {
+        "id": 35208960,
+        "text": "Adult/Gerontology - Primary Care NP (AGPCNP)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "agpcnp",
+        "code": "35208960"
+       },
+       {
+        "id": 35208958,
+        "text": "Family Nurse Practitioner (FNP)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "fnp",
+        "code": "35208958"
+       },
+       {
+        "id": 35208962,
+        "text": "Nurse-Midwifery\u202f(NM)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "nm",
+        "code": "35208962"
+       },
+       {
+        "id": 35208965,
+        "text": "Dual Nurse-Midwifery (NM) / Women\u2019s Health Nurse Practitioner (WHNP)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "nmwhnp",
+        "code": "35208965"
+       },
+       {
+        "id": 35208961,
+        "text": "Pediatric Nurse Practitioner - Acute Care (PNP-AC)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "pnpac",
+        "code": "35208961"
+       },
+       {
+        "id": 35208963,
+        "text": "Pediatric Nurse Practitioner - Primary Care (PNP-PC)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "pnppc",
+        "code": "35208963"
+       },
+       {
+        "id": 35208966,
+        "text": "Psychiatric\u2013Mental Health Nurse Practitioner (PMHNP)\u202f- Residential Only. If you would like to apply to the Hybrid MSN, please find the appropriate application in NursingCAS.",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "pmhnp",
+        "code": "35208966"
+       },
+       {
+        "id": 35208964,
+        "text": "Women\u2019s Health Nurse Practitioner (WHNP)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "whnp",
+        "code": "35208964"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "specialty",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 2,
+      "hidden": false
+     }
+    ],
+    "visibilityRules": [],
+    "pairedConditionsRequired": {},
+    "supplementalSectionId": 2013510,
+    "id": "customQuestions",
+    "locked": true,
+    "orgLevel": false
+   },
+   {
+    "title": "Program Questions",
+    "overview": "",
+    "questions": [
+     {
+      "id": 3113126,
+      "referenceQuestionId": 0,
+      "question": "The GEPN program is for non-nurses who would like to enter the field of nursing through a direct-entry program into nursing. If you are already a Registered Nurse (RN) or are completing a RN program before you would begin your studies at Yale, please apply to the MSN program.",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208956,
+        "text": "I am not a Registered Nurse",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "rn_no",
+        "code": "35208956"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "rn_yes_no",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 1,
+      "hidden": false
+     },
+     {
+      "id": 3113127,
+      "referenceQuestionId": 0,
+      "question": "I understand that I must have completed two out of the four prerequisite courses with final grades on official transcripts at the time of application submission. My application will not be reviewed until this admission requirement has been fulfilled.",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208957,
+        "text": "Yes - I have completed at least two of the prerequisites and have ordered my official transcripts to NursingCAS",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Y",
+        "code": "35208957"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "prereq_agree",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 2,
+      "hidden": false
+     },
+     {
+      "id": 3113119,
+      "referenceQuestionId": 0,
+      "question": "Are you applying to a Joint Degree Program?",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208945,
+        "text": "No",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "N",
+        "code": "35208945"
+       },
+       {
+        "id": 35208944,
+        "text": "Yes",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Y",
+        "code": "35208944"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "joint_yn",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 3,
+      "hidden": false
+     },
+     {
+      "id": 3113121,
+      "referenceQuestionId": 0,
+      "question": "Students must\u00a0apply simultaneously to both joint degree schools and indicate on each application form that they are applying to the joint-degree program. Which Joint Degree Program are you applying to?",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208948,
+        "text": "Master of Arts in Religion",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "mar",
+        "code": "35208948"
+       },
+       {
+        "id": 35208947,
+        "text": "Master of Divinity",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "mdiv",
+        "code": "35208947"
+       },
+       {
+        "id": 35208949,
+        "text": "Master of Public Health",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "mph",
+        "code": "35208949"
+       }
+      ],
+      "visibilityRules": [
+       {
+        "operator": "or",
+        "rules": [
+         "35208944"
+        ]
+       }
+      ],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "joint",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 4,
+      "hidden": false
+     },
+     {
+      "id": 3113123,
+      "referenceQuestionId": 0,
+      "question": "I understand that Yale School of Nursing requires valid Graduate Record Examination (GRE) scores from any applicant whose cumulative undergraduate GPA, as recalculated by NursingCAS, is below 3.0. I understand that my GPA that NursingCAS calculates may be different (lower or higher) than the GPA on my transcript. If the GRE requirement applies to me, I acknowledge that I must submit official GRE scores to NursingCAS (using GRE Code 1115) for my application to be considered complete and eligible for review.",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208952,
+        "text": "Yes - I will send official GRE scores if my NursingCAS cumulative GPA is below 3.0",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Y",
+        "code": "35208952"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "gre_agree",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 5,
+      "hidden": false
+     },
+     {
+      "id": 3113125,
+      "referenceQuestionId": 0,
+      "question": "Are you a native English speaker who has completed four years of undergraduate education where the medium of instruction is English?",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208955,
+        "text": "Yes",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Yes",
+        "code": "35208955"
+       },
+       {
+        "id": 35208954,
+        "text": "No",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "No",
+        "code": "35208954"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "english_waiver",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 6,
+      "hidden": false
+     },
+     {
+      "id": 3113120,
+      "referenceQuestionId": 0,
+      "question": "I understand that official IELTS or TOEFL scores must be sent to NursingCAS as part of my application.",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208946,
+        "text": "Yes - I will send official IELTS or TOEFL scores to NursingCAS",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Y",
+        "code": "35208946"
+       }
+      ],
+      "visibilityRules": [
+       {
+        "operator": "or",
+        "rules": [
+         "35208954"
+        ]
+       }
+      ],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "english_agree",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 7,
+      "hidden": false
+     },
+     {
+      "id": 3113122,
+      "referenceQuestionId": 0,
+      "question": "Did you receive a degree from a college or university outside the United States or Canada?",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208950,
+        "text": "Yes",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Y",
+        "code": "35208950"
+       },
+       {
+        "id": 35208951,
+        "text": "No",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "N",
+        "code": "35208951"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "icap_required",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 8,
+      "hidden": false
+     },
+     {
+      "id": 3113124,
+      "referenceQuestionId": 0,
+      "question": "I understand that an official International Credential Advantage Package (ICAP) evaluation must be submitted to NursingCAS from The Evaluation Company (TEC, formerly SpanTran) or World Education Services (WES) as part of my application. Even if NursingCAS verifies my application without the evaluation, it is still required by Yale School of Nursing.",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208953,
+        "text": "Yes - I will send an ICAP evaluation to NursingCAS",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Y",
+        "code": "35208953"
+       }
+      ],
+      "visibilityRules": [
+       {
+        "operator": "or",
+        "rules": [
+         "35208950"
+        ]
+       }
+      ],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "icap_agree",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 9,
+      "hidden": false
+     }
+    ],
+    "visibilityRules": [],
+    "pairedConditionsRequired": {},
+    "supplementalSectionId": 2013510,
+    "id": "customQuestions",
+    "locked": true,
+    "orgLevel": false
+   },
+   {
+    "title": "Personal Statement",
+    "overview": null,
+    "questions": [
+     {
+      "id": 3113131,
+      "referenceQuestionId": 0,
+      "question": "<p></p><div class=\"OutlineElement Ltr SCXW21394295 BCX4\" style=\"direction: ltr;color: rgba(0, 0, 0, 0.847);font-size: 12px;\"><p class=\"Paragraph SCXW21394295 BCX4\" style=\"vertical-align: baseline;background-color: transparent;color: windowtext;text-align: left;\"><span xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW21394295 BCX4\" style=\"font-size: 12pt;\"><b><span class=\"NormalTextRun SCXW21394295 BCX4\"></span></b></span></p></div><div class=\"OutlineElement Ltr SCXW168737469 BCX4\" style=\"direction: ltr;color: rgba(0, 0, 0, 0.847);font-size: 12px;\"><p class=\"Paragraph SCXW168737469 BCX4\" style=\"vertical-align: baseline;background-color: transparent;color: windowtext;text-align: left;\"><span xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW168737469 BCX4\" style=\"font-size: 12pt;\"><b><span class=\"NormalTextRun SCXW168737469 BCX4\">Please respond to the following questions in a single, comprehensive essay that reflects your own original work.&#8239;You may not&#8239;use&#8239;artificial intelligence&#8239;(e.g., ChatGPT)&#8239;or&#8239;other outside&#8239;</span><span class=\"NormalTextRun SCXW168737469 BCX4\">assistance</span><span class=\"NormalTextRun SCXW168737469 BCX4\">&#8239;to generate, suggest, or shape the substance or content of your response.&#8239;Your essay will be evaluated for clarity, thoughtfulness, and organization, as well as the depth and authenticity of your reflection.</span></b></span><span xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW168737469 BCX4\" style=\"font-size: 12pt;\"><span class=\"NormalTextRun SCXW168737469 BCX4\">&#8239;</span></span><span class=\"EOP Selected SCXW168737469 BCX4\" style=\"font-size: 12pt;\">\u00a0</span></p></div><div class=\"OutlineElement Ltr SCXW168737469 BCX4\" style=\"direction: ltr;color: rgba(0, 0, 0, 0.847);font-size: 12px;\"><p class=\"Paragraph SCXW168737469 BCX4\" style=\"vertical-align: baseline;background-color: transparent;color: windowtext;text-align: left;\"><span xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW168737469 BCX4\" style=\"font-size: 12pt;\"><span class=\"NormalTextRun SCXW168737469 BCX4\">&#8239;</span></span><span class=\"EOP Selected SCXW168737469 BCX4\" style=\"font-size: 12pt;\">\u00a0</span></p></div><div class=\"OutlineElement Ltr SCXW168737469 BCX4\" style=\"direction: ltr;color: rgba(0, 0, 0, 0.847);font-size: 12px;\"><p class=\"Paragraph SCXW168737469 BCX4\" style=\"vertical-align: baseline;background-color: transparent;color: windowtext;text-align: left;\"><span xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW168737469 BCX4\" style=\"font-size: 12pt;\"><span class=\"NormalTextRun SCXW168737469 BCX4\">Understanding the scope of practice for the specialty to which you are applying is essential. Advanced practice nursing offers many </span><span class=\"NormalTextRun SCXW168737469 BCX4\">possible paths</span><span class=\"NormalTextRun SCXW168737469 BCX4\">. </span><span class=\"NormalTextRun SCXW168737469 BCX4\">Why have you chosen this specialty in particular?</span><span class=\"NormalTextRun SCXW168737469 BCX4\"> In your response, please discuss your understanding of the role and provide examples of the experiences, preparation, or reflection that have informed your decision.</span></span><span class=\"EOP Selected SCXW168737469 BCX4\" style=\"font-size: 12pt;\">\u00a0</span></p></div><p></p>",
+      "input": {
+       "required": false,
+       "type": "sectiontextbox",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 1,
+      "hidden": false
+     },
+     {
+      "id": 3113132,
+      "referenceQuestionId": 0,
+      "question": "Personal Statement (3,000 characters)",
+      "input": {
+       "required": true,
+       "type": "textarea",
+       "minChars": null,
+       "maxLength": 3500,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208968,
+        "text": null,
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35208968"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "personal_statement",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 2,
+      "hidden": false
+     }
+    ],
+    "visibilityRules": [],
+    "pairedConditionsRequired": {},
+    "supplementalSectionId": 2013510,
+    "id": "customQuestions",
+    "locked": true,
+    "orgLevel": false
+   },
+   {
+    "title": "Supplemental Essay",
+    "overview": "",
+    "questions": [
+     {
+      "id": 3113130,
+      "referenceQuestionId": 0,
+      "question": "If you have experienced extenuating circumstances that you believe are important for the Admissions Committee to consider - such as personal, academic, or professional challenges - please use this space to provide a brief explanation. This is entirely optional and should be used only for relevant context that may not be reflected elsewhere in your application. (1,000 characters)",
+      "input": {
+       "required": false,
+       "type": "textarea",
+       "minChars": null,
+       "maxLength": 1000,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208967,
+        "text": null,
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35208967"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "supplemental_essay",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 1,
+      "hidden": false
+     }
+    ],
+    "visibilityRules": [],
+    "pairedConditionsRequired": {},
+    "supplementalSectionId": 2013510,
+    "id": "customQuestions",
+    "locked": true,
+    "orgLevel": false
+   }
+  ],
+  "orgQuestionsComplete": false,
+  "orgQuestionsLocked": false,
+  "programAttributesChanged": false,
+  "programDeleted": false,
+  "programIdsToDelete": null,
+  "impactRules": null,
+  "organizationQuestionAnswers": {
+   "3101966": [],
+   "3101974": [],
+   "3101973": [],
+   "3101971": [],
+   "3101968": []
+  },
+  "programQuestionAnswers": null,
+  "programPaid": false,
+  "programUndelivered": false
+ },
+ "after": {
+  "sectionId": 0,
+  "supplementalSectionIds": {
+   "Questions": 2013510
+  },
+  "statusCompleted": false,
+  "overview": "",
+  "orgQuestionsOverview": null,
+  "orgQuestionsEnabled": false,
+  "questionConditionsMet": [],
+  "questionGroups": [
+   {
+    "title": "Specialty Selection",
+    "overview": null,
+    "questions": [
+     {
+      "id": 3113128,
+      "referenceQuestionId": 0,
+      "question": "<p>All applicants must select a specialty at the time of application. This selection is binding and will determine the specialty for which your application is considered. Because changes may not be possible after submission, please choose carefully.<br/></p>",
+      "input": {
+       "required": false,
+       "type": "sectiontextbox",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 1,
+      "hidden": false
+     },
+     {
+      "id": 3113129,
+      "referenceQuestionId": 0,
+      "question": "Please select your specialty below.",
+      "input": {
+       "required": true,
+       "type": "dropdown",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [
+       "35208966"
+      ],
+      "answerOptions": [
+       {
+        "id": 35208959,
+        "text": "Adult/Gerontology - Acute Care Nurse Practitioner (AGACNP)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "agacnp",
+        "code": "35208959"
+       },
+       {
+        "id": 35208960,
+        "text": "Adult/Gerontology - Primary Care NP (AGPCNP)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "agpcnp",
+        "code": "35208960"
+       },
+       {
+        "id": 35208958,
+        "text": "Family Nurse Practitioner (FNP)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "fnp",
+        "code": "35208958"
+       },
+       {
+        "id": 35208962,
+        "text": "Nurse-Midwifery\u202f(NM)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "nm",
+        "code": "35208962"
+       },
+       {
+        "id": 35208965,
+        "text": "Dual Nurse-Midwifery (NM) / Women\u2019s Health Nurse Practitioner (WHNP)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "nmwhnp",
+        "code": "35208965"
+       },
+       {
+        "id": 35208961,
+        "text": "Pediatric Nurse Practitioner - Acute Care (PNP-AC)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "pnpac",
+        "code": "35208961"
+       },
+       {
+        "id": 35208963,
+        "text": "Pediatric Nurse Practitioner - Primary Care (PNP-PC)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "pnppc",
+        "code": "35208963"
+       },
+       {
+        "id": 35208966,
+        "text": "Psychiatric\u2013Mental Health Nurse Practitioner (PMHNP)\u202f- Residential Only. If you would like to apply to the Hybrid MSN, please find the appropriate application in NursingCAS.",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "pmhnp",
+        "code": "35208966"
+       },
+       {
+        "id": 35208964,
+        "text": "Women\u2019s Health Nurse Practitioner (WHNP)",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "whnp",
+        "code": "35208964"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "specialty",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 2,
+      "hidden": false
+     }
+    ],
+    "visibilityRules": [],
+    "pairedConditionsRequired": {},
+    "supplementalSectionId": 2013510,
+    "id": "customQuestions",
+    "locked": true,
+    "orgLevel": false
+   },
+   {
+    "title": "Program Questions",
+    "overview": "",
+    "questions": [
+     {
+      "id": 3113126,
+      "referenceQuestionId": 0,
+      "question": "The GEPN program is for non-nurses who would like to enter the field of nursing through a direct-entry program into nursing. If you are already a Registered Nurse (RN) or are completing a RN program before you would begin your studies at Yale, please apply to the MSN program.",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [
+       "35208956"
+      ],
+      "answerOptions": [
+       {
+        "id": 35208956,
+        "text": "I am not a Registered Nurse",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "rn_no",
+        "code": "35208956"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "rn_yes_no",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 1,
+      "hidden": false
+     },
+     {
+      "id": 3113127,
+      "referenceQuestionId": 0,
+      "question": "I understand that I must have completed two out of the four prerequisite courses with final grades on official transcripts at the time of application submission. My application will not be reviewed until this admission requirement has been fulfilled.",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [
+       "35208957"
+      ],
+      "answerOptions": [
+       {
+        "id": 35208957,
+        "text": "Yes - I have completed at least two of the prerequisites and have ordered my official transcripts to NursingCAS",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Y",
+        "code": "35208957"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "prereq_agree",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 2,
+      "hidden": false
+     },
+     {
+      "id": 3113119,
+      "referenceQuestionId": 0,
+      "question": "Are you applying to a Joint Degree Program?",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [
+       "35208945"
+      ],
+      "answerOptions": [
+       {
+        "id": 35208945,
+        "text": "No",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "N",
+        "code": "35208945"
+       },
+       {
+        "id": 35208944,
+        "text": "Yes",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Y",
+        "code": "35208944"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "joint_yn",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 3,
+      "hidden": false
+     },
+     {
+      "id": 3113121,
+      "referenceQuestionId": 0,
+      "question": "Students must\u00a0apply simultaneously to both joint degree schools and indicate on each application form that they are applying to the joint-degree program. Which Joint Degree Program are you applying to?",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208948,
+        "text": "Master of Arts in Religion",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "mar",
+        "code": "35208948"
+       },
+       {
+        "id": 35208947,
+        "text": "Master of Divinity",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "mdiv",
+        "code": "35208947"
+       },
+       {
+        "id": 35208949,
+        "text": "Master of Public Health",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "mph",
+        "code": "35208949"
+       }
+      ],
+      "visibilityRules": [
+       {
+        "operator": "or",
+        "rules": [
+         "35208944"
+        ]
+       }
+      ],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "joint",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 4,
+      "hidden": false
+     },
+     {
+      "id": 3113123,
+      "referenceQuestionId": 0,
+      "question": "I understand that Yale School of Nursing requires valid Graduate Record Examination (GRE) scores from any applicant whose cumulative undergraduate GPA, as recalculated by NursingCAS, is below 3.0. I understand that my GPA that NursingCAS calculates may be different (lower or higher) than the GPA on my transcript. If the GRE requirement applies to me, I acknowledge that I must submit official GRE scores to NursingCAS (using GRE Code 1115) for my application to be considered complete and eligible for review.",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [
+       "35208952"
+      ],
+      "answerOptions": [
+       {
+        "id": 35208952,
+        "text": "Yes - I will send official GRE scores if my NursingCAS cumulative GPA is below 3.0",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Y",
+        "code": "35208952"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "gre_agree",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 5,
+      "hidden": false
+     },
+     {
+      "id": 3113125,
+      "referenceQuestionId": 0,
+      "question": "Are you a native English speaker who has completed four years of undergraduate education where the medium of instruction is English?",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [
+       "35208955"
+      ],
+      "answerOptions": [
+       {
+        "id": 35208955,
+        "text": "Yes",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Yes",
+        "code": "35208955"
+       },
+       {
+        "id": 35208954,
+        "text": "No",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "No",
+        "code": "35208954"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "english_waiver",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 6,
+      "hidden": false
+     },
+     {
+      "id": 3113120,
+      "referenceQuestionId": 0,
+      "question": "I understand that official IELTS or TOEFL scores must be sent to NursingCAS as part of my application.",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208946,
+        "text": "Yes - I will send official IELTS or TOEFL scores to NursingCAS",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Y",
+        "code": "35208946"
+       }
+      ],
+      "visibilityRules": [
+       {
+        "operator": "or",
+        "rules": [
+         "35208954"
+        ]
+       }
+      ],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "english_agree",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 7,
+      "hidden": false
+     },
+     {
+      "id": 3113122,
+      "referenceQuestionId": 0,
+      "question": "Did you receive a degree from a college or university outside the United States or Canada?",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [
+       "35208951"
+      ],
+      "answerOptions": [
+       {
+        "id": 35208950,
+        "text": "Yes",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Y",
+        "code": "35208950"
+       },
+       {
+        "id": 35208951,
+        "text": "No",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "N",
+        "code": "35208951"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "icap_required",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 8,
+      "hidden": false
+     },
+     {
+      "id": 3113124,
+      "referenceQuestionId": 0,
+      "question": "I understand that an official International Credential Advantage Package (ICAP) evaluation must be submitted to NursingCAS from The Evaluation Company (TEC, formerly SpanTran) or World Education Services (WES) as part of my application. Even if NursingCAS verifies my application without the evaluation, it is still required by Yale School of Nursing.",
+      "input": {
+       "required": true,
+       "type": "radio",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208953,
+        "text": "Yes - I will send an ICAP evaluation to NursingCAS",
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": "Y",
+        "code": "35208953"
+       }
+      ],
+      "visibilityRules": [
+       {
+        "operator": "or",
+        "rules": [
+         "35208950"
+        ]
+       }
+      ],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "icap_agree",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 9,
+      "hidden": false
+     }
+    ],
+    "visibilityRules": [],
+    "pairedConditionsRequired": {},
+    "supplementalSectionId": 2013510,
+    "id": "customQuestions",
+    "locked": true,
+    "orgLevel": false
+   },
+   {
+    "title": "Personal Statement",
+    "overview": null,
+    "questions": [
+     {
+      "id": 3113131,
+      "referenceQuestionId": 0,
+      "question": "<p></p><div class=\"OutlineElement Ltr SCXW21394295 BCX4\" style=\"direction: ltr;color: rgba(0, 0, 0, 0.847);font-size: 12px;\"><p class=\"Paragraph SCXW21394295 BCX4\" style=\"vertical-align: baseline;background-color: transparent;color: windowtext;text-align: left;\"><span xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW21394295 BCX4\" style=\"font-size: 12pt;\"><b><span class=\"NormalTextRun SCXW21394295 BCX4\"></span></b></span></p></div><div class=\"OutlineElement Ltr SCXW168737469 BCX4\" style=\"direction: ltr;color: rgba(0, 0, 0, 0.847);font-size: 12px;\"><p class=\"Paragraph SCXW168737469 BCX4\" style=\"vertical-align: baseline;background-color: transparent;color: windowtext;text-align: left;\"><span xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW168737469 BCX4\" style=\"font-size: 12pt;\"><b><span class=\"NormalTextRun SCXW168737469 BCX4\">Please respond to the following questions in a single, comprehensive essay that reflects your own original work.&#8239;You may not&#8239;use&#8239;artificial intelligence&#8239;(e.g., ChatGPT)&#8239;or&#8239;other outside&#8239;</span><span class=\"NormalTextRun SCXW168737469 BCX4\">assistance</span><span class=\"NormalTextRun SCXW168737469 BCX4\">&#8239;to generate, suggest, or shape the substance or content of your response.&#8239;Your essay will be evaluated for clarity, thoughtfulness, and organization, as well as the depth and authenticity of your reflection.</span></b></span><span xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW168737469 BCX4\" style=\"font-size: 12pt;\"><span class=\"NormalTextRun SCXW168737469 BCX4\">&#8239;</span></span><span class=\"EOP Selected SCXW168737469 BCX4\" style=\"font-size: 12pt;\">\u00a0</span></p></div><div class=\"OutlineElement Ltr SCXW168737469 BCX4\" style=\"direction: ltr;color: rgba(0, 0, 0, 0.847);font-size: 12px;\"><p class=\"Paragraph SCXW168737469 BCX4\" style=\"vertical-align: baseline;background-color: transparent;color: windowtext;text-align: left;\"><span xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW168737469 BCX4\" style=\"font-size: 12pt;\"><span class=\"NormalTextRun SCXW168737469 BCX4\">&#8239;</span></span><span class=\"EOP Selected SCXW168737469 BCX4\" style=\"font-size: 12pt;\">\u00a0</span></p></div><div class=\"OutlineElement Ltr SCXW168737469 BCX4\" style=\"direction: ltr;color: rgba(0, 0, 0, 0.847);font-size: 12px;\"><p class=\"Paragraph SCXW168737469 BCX4\" style=\"vertical-align: baseline;background-color: transparent;color: windowtext;text-align: left;\"><span xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW168737469 BCX4\" style=\"font-size: 12pt;\"><span class=\"NormalTextRun SCXW168737469 BCX4\">Understanding the scope of practice for the specialty to which you are applying is essential. Advanced practice nursing offers many </span><span class=\"NormalTextRun SCXW168737469 BCX4\">possible paths</span><span class=\"NormalTextRun SCXW168737469 BCX4\">. </span><span class=\"NormalTextRun SCXW168737469 BCX4\">Why have you chosen this specialty in particular?</span><span class=\"NormalTextRun SCXW168737469 BCX4\"> In your response, please discuss your understanding of the role and provide examples of the experiences, preparation, or reflection that have informed your decision.</span></span><span class=\"EOP Selected SCXW168737469 BCX4\" style=\"font-size: 12pt;\">\u00a0</span></p></div><p></p>",
+      "input": {
+       "required": false,
+       "type": "sectiontextbox",
+       "minChars": null,
+       "maxLength": 0,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": null,
+      "recordIdentifierId": 0,
+      "sequenceNumber": 1,
+      "hidden": false
+     },
+     {
+      "id": 3113132,
+      "referenceQuestionId": 0,
+      "question": "Personal Statement (3,000 characters)",
+      "input": {
+       "required": true,
+       "type": "textarea",
+       "minChars": null,
+       "maxLength": 3500,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208968,
+        "text": null,
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35208968"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "personal_statement",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 2,
+      "hidden": false
+     }
+    ],
+    "visibilityRules": [],
+    "pairedConditionsRequired": {},
+    "supplementalSectionId": 2013510,
+    "id": "customQuestions",
+    "locked": true,
+    "orgLevel": false
+   },
+   {
+    "title": "Supplemental Essay",
+    "overview": "",
+    "questions": [
+     {
+      "id": 3113130,
+      "referenceQuestionId": 0,
+      "question": "If you have experienced extenuating circumstances that you believe are important for the Admissions Committee to consider - such as personal, academic, or professional challenges - please use this space to provide a brief explanation. This is entirely optional and should be used only for relevant context that may not be reflected elsewhere in your application. (1,000 characters)",
+      "input": {
+       "required": false,
+       "type": "textarea",
+       "minChars": null,
+       "maxLength": 1000,
+       "showComma": false,
+       "allowedDecimal": 0,
+       "isVertical": false,
+       "alternateIdType": null
+      },
+      "value": [],
+      "answerOptions": [
+       {
+        "id": 35208967,
+        "text": null,
+        "seqNum": 0,
+        "expirationDate": null,
+        "exportCode": null,
+        "code": "35208967"
+       }
+      ],
+      "visibilityRules": [],
+      "pairedConditionsRequired": {},
+      "attachment": null,
+      "features": [],
+      "shortFieldName": "supplemental_essay",
+      "recordIdentifierId": 0,
+      "sequenceNumber": 1,
+      "hidden": false
+     }
+    ],
+    "visibilityRules": [],
+    "pairedConditionsRequired": {},
+    "supplementalSectionId": 2013510,
+    "id": "customQuestions",
+    "locked": true,
+    "orgLevel": false
+   }
+  ],
+  "orgQuestionsComplete": false,
+  "orgQuestionsLocked": false,
+  "programAttributesChanged": false,
+  "programDeleted": false,
+  "programIdsToDelete": null,
+  "impactRules": null,
+  "organizationQuestionAnswers": {
+   "3101966": [],
+   "3101974": [],
+   "3101973": [],
+   "3101971": [],
+   "3101968": []
+  },
+  "programQuestionAnswers": null,
+  "programPaid": false,
+  "programUndelivered": false
+ },
+ "save": {
+  "request": {
+   "sectionId": 0,
+   "supplementalSectionIds": {
+    "Questions": 2013510
+   },
+   "statusCompleted": false,
+   "orgQuestionsEnabled": false,
+   "questionConditionsMet": [],
+   "questionGroups": [
+    {
+     "title": "Specialty Selection",
+     "questions": [
+      {
+       "id": 3113128,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": false,
+        "type": "sectiontextbox",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 1,
+       "hidden": false
+      },
+      {
+       "id": 3113129,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "dropdown",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208966"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208966,
+         "seqNum": 0,
+         "expirationDate": null,
+         "code": "35208966"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "specialty",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 2,
+       "hidden": false
+      }
+     ],
+     "visibilityRules": [],
+     "pairedConditionsRequired": {},
+     "supplementalSectionId": 2013510,
+     "id": "customQuestions",
+     "locked": true,
+     "orgLevel": false,
+     "additionalQuestions": []
+    },
+    {
+     "title": "Program Questions",
+     "questions": [
+      {
+       "id": 3113126,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208956"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208956,
+         "seqNum": 0,
+         "expirationDate": null,
+         "code": "35208956"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "rn_yes_no",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 1,
+       "hidden": false
+      },
+      {
+       "id": 3113127,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208957"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208957,
+         "seqNum": 0,
+         "expirationDate": null,
+         "code": "35208957"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "prereq_agree",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 2,
+       "hidden": false
+      },
+      {
+       "id": 3113119,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208945"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208945,
+         "seqNum": 0,
+         "expirationDate": null,
+         "code": "35208945"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "joint_yn",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 3,
+       "hidden": false
+      },
+      {
+       "id": 3113121,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [
+        {
+         "operator": "or",
+         "rules": [
+          "35208944"
+         ]
+        }
+       ],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "joint",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 4,
+       "hidden": false
+      },
+      {
+       "id": 3113123,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208952"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208952,
+         "seqNum": 0,
+         "expirationDate": null,
+         "code": "35208952"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "gre_agree",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 5,
+       "hidden": false
+      },
+      {
+       "id": 3113125,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208955"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208955,
+         "seqNum": 0,
+         "expirationDate": null,
+         "code": "35208955"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "english_waiver",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 6,
+       "hidden": false
+      },
+      {
+       "id": 3113120,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [
+        {
+         "operator": "or",
+         "rules": [
+          "35208954"
+         ]
+        }
+       ],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "english_agree",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 7,
+       "hidden": false
+      },
+      {
+       "id": 3113122,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208951"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208951,
+         "seqNum": 0,
+         "expirationDate": null,
+         "code": "35208951"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "icap_required",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 8,
+       "hidden": false
+      },
+      {
+       "id": 3113124,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [
+        {
+         "operator": "or",
+         "rules": [
+          "35208950"
+         ]
+        }
+       ],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "icap_agree",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 9,
+       "hidden": false
+      }
+     ],
+     "visibilityRules": [],
+     "pairedConditionsRequired": {},
+     "supplementalSectionId": 2013510,
+     "id": "customQuestions",
+     "locked": true,
+     "orgLevel": false,
+     "additionalQuestions": []
+    },
+    {
+     "title": "Personal Statement",
+     "questions": [
+      {
+       "id": 3113131,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": false,
+        "type": "sectiontextbox",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 1,
+       "hidden": false
+      },
+      {
+       "id": 3113132,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": true,
+        "type": "textarea",
+        "minChars": null,
+        "maxLength": 3500,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "personal_statement",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 2,
+       "hidden": false
+      }
+     ],
+     "visibilityRules": [],
+     "pairedConditionsRequired": {},
+     "supplementalSectionId": 2013510,
+     "id": "customQuestions",
+     "locked": true,
+     "orgLevel": false,
+     "additionalQuestions": []
+    },
+    {
+     "title": "Supplemental Essay",
+     "questions": [
+      {
+       "id": 3113130,
+       "referenceQuestionId": 0,
+       "input": {
+        "required": false,
+        "type": "textarea",
+        "minChars": null,
+        "maxLength": 1000,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "supplemental_essay",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 1,
+       "hidden": false
+      }
+     ],
+     "visibilityRules": [],
+     "pairedConditionsRequired": {},
+     "supplementalSectionId": 2013510,
+     "id": "customQuestions",
+     "locked": true,
+     "orgLevel": false,
+     "additionalQuestions": []
+    }
+   ],
+   "orgQuestionsComplete": false,
+   "orgQuestionsLocked": false,
+   "programAttributesChanged": false,
+   "programDeleted": false,
+   "programIdsToDelete": [],
+   "impactRules": {},
+   "organizationQuestionAnswers": {
+    "3101966": [],
+    "3101968": [],
+    "3101971": [],
+    "3101973": [],
+    "3101974": []
+   },
+   "programQuestionAnswers": null,
+   "programPaid": false,
+   "programUndelivered": false
+  },
+  "response": {
+   "sectionId": 0,
+   "supplementalSectionIds": {
+    "Questions": 2013510
+   },
+   "statusCompleted": false,
+   "overview": null,
+   "orgQuestionsOverview": null,
+   "orgQuestionsEnabled": false,
+   "questionConditionsMet": [],
+   "questionGroups": [
+    {
+     "title": "Specialty Selection",
+     "overview": null,
+     "questions": [
+      {
+       "id": 3113128,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": false,
+        "type": "sectiontextbox",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 1,
+       "hidden": false
+      },
+      {
+       "id": 3113129,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "dropdown",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208966"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208966,
+         "text": null,
+         "seqNum": 0,
+         "expirationDate": null,
+         "exportCode": null,
+         "code": "35208966"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "specialty",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 2,
+       "hidden": false
+      }
+     ],
+     "visibilityRules": [],
+     "pairedConditionsRequired": {},
+     "supplementalSectionId": 2013510,
+     "id": "customQuestions",
+     "locked": true,
+     "orgLevel": false
+    },
+    {
+     "title": "Program Questions",
+     "overview": null,
+     "questions": [
+      {
+       "id": 3113126,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208956"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208956,
+         "text": null,
+         "seqNum": 0,
+         "expirationDate": null,
+         "exportCode": null,
+         "code": "35208956"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "rn_yes_no",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 1,
+       "hidden": false
+      },
+      {
+       "id": 3113127,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208957"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208957,
+         "text": null,
+         "seqNum": 0,
+         "expirationDate": null,
+         "exportCode": null,
+         "code": "35208957"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "prereq_agree",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 2,
+       "hidden": false
+      },
+      {
+       "id": 3113119,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208945"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208945,
+         "text": null,
+         "seqNum": 0,
+         "expirationDate": null,
+         "exportCode": null,
+         "code": "35208945"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "joint_yn",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 3,
+       "hidden": false
+      },
+      {
+       "id": 3113121,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [
+        {
+         "operator": "or",
+         "rules": [
+          "35208944"
+         ]
+        }
+       ],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "joint",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 4,
+       "hidden": false
+      },
+      {
+       "id": 3113123,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208952"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208952,
+         "text": null,
+         "seqNum": 0,
+         "expirationDate": null,
+         "exportCode": null,
+         "code": "35208952"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "gre_agree",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 5,
+       "hidden": false
+      },
+      {
+       "id": 3113125,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208955"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208955,
+         "text": null,
+         "seqNum": 0,
+         "expirationDate": null,
+         "exportCode": null,
+         "code": "35208955"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "english_waiver",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 6,
+       "hidden": false
+      },
+      {
+       "id": 3113120,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [
+        {
+         "operator": "or",
+         "rules": [
+          "35208954"
+         ]
+        }
+       ],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "english_agree",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 7,
+       "hidden": false
+      },
+      {
+       "id": 3113122,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        "35208951"
+       ],
+       "answerOptions": [
+        {
+         "id": 35208951,
+         "text": null,
+         "seqNum": 0,
+         "expirationDate": null,
+         "exportCode": null,
+         "code": "35208951"
+        }
+       ],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "icap_required",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 8,
+       "hidden": false
+      },
+      {
+       "id": 3113124,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "radio",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [
+        {
+         "operator": "or",
+         "rules": [
+          "35208950"
+         ]
+        }
+       ],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "icap_agree",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 9,
+       "hidden": false
+      }
+     ],
+     "visibilityRules": [],
+     "pairedConditionsRequired": {},
+     "supplementalSectionId": 2013510,
+     "id": "customQuestions",
+     "locked": true,
+     "orgLevel": false
+    },
+    {
+     "title": "Personal Statement",
+     "overview": null,
+     "questions": [
+      {
+       "id": 3113131,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": false,
+        "type": "sectiontextbox",
+        "minChars": null,
+        "maxLength": 0,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": null,
+       "recordIdentifierId": 0,
+       "sequenceNumber": 1,
+       "hidden": false
+      },
+      {
+       "id": 3113132,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": true,
+        "type": "textarea",
+        "minChars": null,
+        "maxLength": 3500,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "personal_statement",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 2,
+       "hidden": false
+      }
+     ],
+     "visibilityRules": [],
+     "pairedConditionsRequired": {},
+     "supplementalSectionId": 2013510,
+     "id": "customQuestions",
+     "locked": true,
+     "orgLevel": false
+    },
+    {
+     "title": "Supplemental Essay",
+     "overview": null,
+     "questions": [
+      {
+       "id": 3113130,
+       "referenceQuestionId": 0,
+       "question": null,
+       "input": {
+        "required": false,
+        "type": "textarea",
+        "minChars": null,
+        "maxLength": 1000,
+        "showComma": false,
+        "allowedDecimal": 0,
+        "isVertical": false,
+        "alternateIdType": null
+       },
+       "value": [
+        ""
+       ],
+       "answerOptions": [],
+       "visibilityRules": [],
+       "pairedConditionsRequired": {},
+       "attachment": null,
+       "features": [],
+       "shortFieldName": "supplemental_essay",
+       "recordIdentifierId": 0,
+       "sequenceNumber": 1,
+       "hidden": false
+      }
+     ],
+     "visibilityRules": [],
+     "pairedConditionsRequired": {},
+     "supplementalSectionId": 2013510,
+     "id": "customQuestions",
+     "locked": true,
+     "orgLevel": false
+    }
+   ],
+   "orgQuestionsComplete": true,
+   "orgQuestionsLocked": false,
+   "programAttributesChanged": false,
+   "programDeleted": false,
+   "programIdsToDelete": [],
+   "impactRules": {},
+   "organizationQuestionAnswers": {
+    "3101966": [],
+    "3101968": [],
+    "3101971": [],
+    "3101973": [],
+    "3101974": []
+   },
+   "programQuestionAnswers": null,
+   "programPaid": false,
+   "programUndelivered": false
+  }
+ },
+ "impact": {
+  "path": "/extendedProfile/applicationProgramSelectionImpact?includeJumpstartValidation=false&programSelectedId=79439764",
+  "request": {
+   "3113119": [
+    "35208945"
+   ],
+   "3113120": [
+    ""
+   ],
+   "3113121": [
+    ""
+   ],
+   "3113122": [
+    "35208951"
+   ],
+   "3113123": [
+    "35208952"
+   ],
+   "3113124": [
+    ""
+   ],
+   "3113125": [
+    "35208955"
+   ],
+   "3113126": [
+    "35208956"
+   ],
+   "3113127": [
+    "35208957"
+   ],
+   "3113129": [
+    "35208966"
+   ]
+  },
+  "response": {
+   "extendedProfileResponse": {
+    "applicantTypeProgramSelectionImpactResponse": {
+     "programSelectionImpacts": [],
+     "allDelete": false
+    },
+    "applicationFormSectionDTOs": null,
+    "conflictedPrograms": [],
+    "programSelected": []
+   },
+   "applicationImpactRulesResponse": {},
+   "hasImpacts": false,
+   "hasImpactsOnSubmittedProgramsSpecialties": []
+  }
+ }
+}

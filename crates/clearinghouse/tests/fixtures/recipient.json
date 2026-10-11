@@ -1,0 +1,87 @@
+{
+ "recipients": [
+  {
+   "toRecipientId": 88330236,
+   "toOrderId": 97852158,
+   "toRecipientFiceCode": "00111700",
+   "suborderNumber": 1,
+   "organization": "AZUSA PACIFIC UNIVERSITY",
+   "attention": "GRADUATE AND PROFESSIONAL ADMISSIONS",
+   "orderProcessFee": 2.9,
+   "totalFee": 12.9,
+   "processingOptionTxt": "Now",
+   "processingOptionDisplay": "Current Transcript - Process As Is",
+   "transcriptPurposeTxt": "Graduate Admissions",
+   "xcriptTypeFee": 0.0,
+   "quantity": "1",
+   "quantityTxt": "1 copy ",
+   "quantityFee": 10.0,
+   "deliveryMethodTxt": "Electronic Exchange",
+   "deliveryMethodHelpTxt": "Transcript will be sent by Electronic Exchange (ETX).",
+   "deliveryFee": 0.0,
+   "deliveryFeeDisplayTxt": "Delivery Fee",
+   "deliveryMethodType": "T",
+   "deliveryMethodCategory": "G",
+   "noFeeFlag": "0",
+   "noFeeFlagTxt": "N/A",
+   "totalReducedFee": 0.0,
+   "totalFeeCharged": 12.9,
+   "consentFormDate": "10/10/2026 4:30 PM ET",
+   "handleFee": 0.0,
+   "handleFeePaidBy": "R",
+   "electronicDeliveryFeePaidBy": "R",
+   "digitalSignatureFee": 0.0,
+   "rightsManagmentFee": 0.0,
+   "pdfDeliveryFee": 0.0,
+   "statusInfo": {
+    "current": {
+     "status": "ETS",
+     "statusTxt": "Electronic Transcript Sent",
+     "statusBy": "OutboundDeliveryQueueProcessJo",
+     "createdTimestamp": "10/10/2026 4:50 PM ET",
+     "multipleHoldInfo": [],
+     "statusType": "0"
+    },
+    "history": [
+     {
+      "status": "P",
+      "statusTxt": "Order Placed",
+      "statusBy": "PlaceOrder",
+      "createdTimestamp": "10/10/2026 4:30 PM ET",
+      "statusType": "0",
+      "createdTimestampTransient": "2026-10-10 16:30:20.884"
+     },
+     {
+      "status": "L",
+      "statusTxt": "Paperless Consent Form Received",
+      "statusBy": "PlaceOrder",
+      "createdTimestamp": "10/10/2026 4:30 PM ET",
+      "statusType": "0",
+      "createdTimestampTransient": "2026-10-10 16:30:22.175"
+     },
+     {
+      "status": "V",
+      "statusTxt": "In Process at School",
+      "statusBy": "IntegrationTranscriptRequestJo",
+      "createdTimestamp": "10/10/2026 4:35 PM ET",
+      "statusType": "0",
+      "createdTimestampTransient": "2026-10-10 16:35:02.216"
+     },
+     {
+      "status": "ETS",
+      "statusTxt": "Electronic Transcript Sent",
+      "statusBy": "OutboundDeliveryQueueProcessJo",
+      "createdTimestamp": "10/10/2026 4:50 PM ET",
+      "statusType": "0",
+      "createdTimestampTransient": "2026-10-10 16:50:03.982"
+     }
+    ]
+   },
+   "exchangeNetworkTypeCode": "ETX",
+   "isResendLink": "N",
+   "isResendAccessCode": "N",
+   "countMaxAllowResendAccessCode": "3",
+   "countMaxAllowResendLink": "3"
+  }
+ ]
+}

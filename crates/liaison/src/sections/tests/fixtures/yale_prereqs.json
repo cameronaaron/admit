@@ -1,0 +1,1205 @@
+{
+ "_note": "Captured 2026-10-07 (Yale GEPN): the prerequisite GET, the course list trimmed to the assigned courses, and the four POSTs the form sent, one course each.",
+ "get": {
+  "sectionId": 2013508,
+  "optOut": false,
+  "name": "Graduate Entry Prespecialty in Nursing (GEPN) / Master of Science in Nursing (MSN) Program Prerequisites",
+  "programSelectedId": 0,
+  "instructions": "<div class=\"page\" title=\"Page 1\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-size: 11pt;\"></span></p><p style=\"font-size: medium;\"></p><p style=\"font-size: 16px;\">Four prerequisites are required for admission for all GEPN applicants.\u00a0<strong><b>Two of these courses must be complete with transcripts submitted at the time of application.\u00a0</b></strong>The fourth course must be complete before August 15th prior to matriculation into the school. A grade of B (3.0) or better is required for each of the four prerequisites.</p><p style=\"font-size: 16px;\">Prerequisites must be taken at an accredited college or university (including community college) either in person or online within the last 8 years prior to application submission. AP credits are not acceptable to fulfill the following required courses.</p><p></p></div></div></div>",
+  "courseworkCompleted": true,
+  "prerequisites": [
+   {
+    "id": 402686,
+    "name": "Human Anatomy & Physiology I or Anatomy w/Lab",
+    "description": "",
+    "example": "",
+    "minGrade": 3.0,
+    "minCredits": 4,
+    "maxNumber": null,
+    "sortId": 1,
+    "minGradeAlphabetic": "B",
+    "course": [],
+    "tests": [],
+    "coursePrerequisiteAssignments": [],
+    "optOut": null,
+    "courseMatched": null
+   },
+   {
+    "id": 402684,
+    "name": "Human Anatomy & Physiology II or Physiology w/Lab",
+    "description": "",
+    "example": "",
+    "minGrade": 3.0,
+    "minCredits": 4,
+    "maxNumber": null,
+    "sortId": 2,
+    "minGradeAlphabetic": "B",
+    "course": [],
+    "tests": [],
+    "coursePrerequisiteAssignments": [],
+    "optOut": null,
+    "courseMatched": null
+   },
+   {
+    "id": 402687,
+    "name": "General Chemistry w/Lab",
+    "description": "Note: a 3-credit Introduction to or Fundamentals of Chemistry course does not qualify",
+    "example": "",
+    "minGrade": 3.0,
+    "minCredits": 4,
+    "maxNumber": null,
+    "sortId": 3,
+    "minGradeAlphabetic": "B",
+    "course": [],
+    "tests": [],
+    "coursePrerequisiteAssignments": [],
+    "optOut": null,
+    "courseMatched": null
+   },
+   {
+    "id": 402685,
+    "name": "Microbiology w/Lab",
+    "description": "",
+    "example": "",
+    "minGrade": 3.0,
+    "minCredits": 4,
+    "maxNumber": null,
+    "sortId": 4,
+    "minGradeAlphabetic": "B",
+    "course": [],
+    "tests": [],
+    "coursePrerequisiteAssignments": [],
+    "optOut": null,
+    "courseMatched": null
+   }
+  ],
+  "activityCompleted": false
+ },
+ "transcripts": {
+  "data": {
+   "transcripts": [
+    {
+     "id": 26125388,
+     "completed": 1.0,
+     "collegeCode": "001223",
+     "prereqTranscriptEntryCompleted": 0.0,
+     "college": "LOS ANGELES CITY COLLEGE",
+     "termTypeId": 466,
+     "termType": "Semester",
+     "termStartId": 473,
+     "termStart": "Fall",
+     "termStartMonthId": 12,
+     "termStartMonth": "September",
+     "termStartYearId": 12215,
+     "termStartYear": "2025",
+     "termEndId": 0,
+     "termEnd": null,
+     "termEndMonthId": 0,
+     "termEndMonth": "Still Attending",
+     "termEndYearId": 0,
+     "termEndYear": "",
+     "stillAttending": true,
+     "isForeign": false,
+     "transcriptReceived": true,
+     "receivedDateStr": "07/23/2026",
+     "scanedRecordId": 0,
+     "transcriptStatus": null,
+     "transcriptVerified": null,
+     "isCollegeVerified": false,
+     "isCWEPaid": false,
+     "collegeCreatedDate": 1791313165170,
+     "collegeUpdatedDate": 1791318774093,
+     "dataRollover": true,
+     "collegeInProgress": false,
+     "terms": [
+      {
+       "id": 70145610,
+       "termId": 471,
+       "term": "Spring",
+       "yearId": 12216,
+       "year": "2026",
+       "academicStatusId": 5278,
+       "academicStatus": "Post-Baccalaureate",
+       "termInProgress": false,
+       "isVerified": false,
+       "auEnabled": null,
+       "termCreatedDate": "2026-10-06 14:59:25",
+       "isPrerequisite": null,
+       "typeAccepted": null,
+       "courses": [
+        {
+         "id": 240594266,
+         "code": "ANATOMY 001",
+         "title": "INTRO TO HUMAN ANATOMY",
+         "subjectId": 4499,
+         "subject": "Anatomy",
+         "credits": "4.00",
+         "grade": "B",
+         "convertedGrade": "A",
+         "auEnabled": null,
+         "courseCreatedDate": 1791313165201,
+         "creditsDropDown": null,
+         "isPrerequisite": null,
+         "termId": 70145610,
+         "isScience": true,
+         "subjectKey": null,
+         "totalCourseUnit": 1.0,
+         "source": null,
+         "geCourseCode": null,
+         "transferable": null,
+         "calGetcCode": null,
+         "courseClassification": {
+          "honorsSelected": null,
+          "repeatedSelected": null,
+          "studyAbroadSelected": null,
+          "advancedPlacementSelected": null,
+          "otherTestSelected": null,
+          "labs": [],
+          "labAndLecture": [],
+          "labSelected": null,
+          "dpdSelected": null,
+          "dpdProfessional": [],
+          "labOnlySelected": null,
+          "labAndLectureSelected": null,
+          "dpdScienceSelected": null,
+          "dpdProfessionalSelected": null
+         }
+        },
+        {
+         "id": 240594267,
+         "code": "MICRO 020",
+         "title": "GENERAL MICROBIOLOGY",
+         "subjectId": 4675,
+         "subject": "Microbiology",
+         "credits": "4.00",
+         "grade": "B",
+         "convertedGrade": "A",
+         "auEnabled": null,
+         "courseCreatedDate": 1791313165201,
+         "creditsDropDown": null,
+         "isPrerequisite": null,
+         "termId": 70145610,
+         "isScience": true,
+         "subjectKey": null,
+         "totalCourseUnit": 1.0,
+         "source": null,
+         "geCourseCode": null,
+         "transferable": null,
+         "calGetcCode": null,
+         "courseClassification": {
+          "honorsSelected": null,
+          "repeatedSelected": null,
+          "studyAbroadSelected": null,
+          "advancedPlacementSelected": null,
+          "otherTestSelected": null,
+          "labs": [],
+          "labAndLecture": [],
+          "labSelected": null,
+          "dpdSelected": null,
+          "dpdProfessional": [],
+          "labOnlySelected": null,
+          "labAndLectureSelected": null,
+          "dpdScienceSelected": null,
+          "dpdProfessionalSelected": null
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": 26125389,
+     "completed": 1.0,
+     "collegeCode": "001228",
+     "prereqTranscriptEntryCompleted": 0.0,
+     "college": "LOS ANGELES VALLEY COLLEGE",
+     "termTypeId": 466,
+     "termType": "Semester",
+     "termStartId": 473,
+     "termStart": "Fall",
+     "termStartMonthId": 12,
+     "termStartMonth": "September",
+     "termStartYearId": 12215,
+     "termStartYear": "2025",
+     "termEndId": 0,
+     "termEnd": null,
+     "termEndMonthId": 0,
+     "termEndMonth": "Still Attending",
+     "termEndYearId": 0,
+     "termEndYear": "",
+     "stillAttending": true,
+     "isForeign": false,
+     "transcriptReceived": true,
+     "receivedDateStr": "07/23/2026",
+     "scanedRecordId": 0,
+     "transcriptStatus": null,
+     "transcriptVerified": null,
+     "isCollegeVerified": false,
+     "isCWEPaid": false,
+     "collegeCreatedDate": 1791313165204,
+     "collegeUpdatedDate": 1791318775510,
+     "dataRollover": true,
+     "collegeInProgress": false,
+     "terms": [
+      {
+       "id": 70145611,
+       "termId": 473,
+       "term": "Fall",
+       "yearId": 12216,
+       "year": "2026",
+       "academicStatusId": 5278,
+       "academicStatus": "Post-Baccalaureate",
+       "termInProgress": true,
+       "isVerified": false,
+       "auEnabled": null,
+       "termCreatedDate": "2026-10-06 14:59:25",
+       "isPrerequisite": null,
+       "typeAccepted": null,
+       "courses": [
+        {
+         "id": 240594268,
+         "code": "CHEM 051",
+         "title": "Fundamentals of Chemistry I",
+         "subjectId": 4544,
+         "subject": "Chemistry",
+         "credits": "5.00",
+         "grade": null,
+         "convertedGrade": null,
+         "auEnabled": null,
+         "courseCreatedDate": 1791313165232,
+         "creditsDropDown": null,
+         "isPrerequisite": null,
+         "termId": 70145611,
+         "isScience": true,
+         "subjectKey": null,
+         "totalCourseUnit": 1.0,
+         "source": null,
+         "geCourseCode": null,
+         "transferable": null,
+         "calGetcCode": null,
+         "courseClassification": {
+          "honorsSelected": null,
+          "repeatedSelected": null,
+          "studyAbroadSelected": null,
+          "advancedPlacementSelected": null,
+          "otherTestSelected": null,
+          "labs": [],
+          "labAndLecture": [],
+          "labSelected": null,
+          "dpdSelected": null,
+          "dpdProfessional": [],
+          "labOnlySelected": null,
+          "labAndLectureSelected": null,
+          "dpdScienceSelected": null,
+          "dpdProfessionalSelected": null
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": 26125381,
+     "completed": 1.0,
+     "collegeCode": "001224",
+     "prereqTranscriptEntryCompleted": 0.0,
+     "college": "LOS ANGELES HARBOR COLLEGE",
+     "termTypeId": 466,
+     "termType": "Semester",
+     "termStartId": 471,
+     "termStart": "Spring",
+     "termStartMonthId": 8,
+     "termStartMonth": "May",
+     "termStartYearId": 12216,
+     "termStartYear": "2026",
+     "termEndId": 0,
+     "termEnd": null,
+     "termEndMonthId": 0,
+     "termEndMonth": "Still Attending",
+     "termEndYearId": 0,
+     "termEndYear": "",
+     "stillAttending": true,
+     "isForeign": false,
+     "transcriptReceived": true,
+     "receivedDateStr": "07/23/2026",
+     "scanedRecordId": 0,
+     "transcriptStatus": null,
+     "transcriptVerified": null,
+     "isCollegeVerified": false,
+     "isCWEPaid": false,
+     "collegeCreatedDate": 1791313164961,
+     "collegeUpdatedDate": 1791325497158,
+     "dataRollover": true,
+     "collegeInProgress": false,
+     "terms": [
+      {
+       "id": 70145593,
+       "termId": 471,
+       "term": "Spring",
+       "yearId": 12216,
+       "year": "2026",
+       "academicStatusId": 5278,
+       "academicStatus": "Post-Baccalaureate",
+       "termInProgress": false,
+       "isVerified": false,
+       "auEnabled": null,
+       "termCreatedDate": "2026-10-06 14:59:24",
+       "isPrerequisite": null,
+       "typeAccepted": null,
+       "courses": [
+        {
+         "id": 240594243,
+         "code": "PHYSIOL 001",
+         "title": "INTRO TO HUMAN PHYS",
+         "subjectId": 4721,
+         "subject": "Physiology",
+         "credits": "4.00",
+         "grade": "B",
+         "convertedGrade": "A",
+         "auEnabled": null,
+         "courseCreatedDate": 1791313164983,
+         "creditsDropDown": null,
+         "isPrerequisite": null,
+         "termId": 70145593,
+         "isScience": true,
+         "subjectKey": null,
+         "totalCourseUnit": 1.0,
+         "source": null,
+         "geCourseCode": null,
+         "transferable": null,
+         "calGetcCode": null,
+         "courseClassification": {
+          "honorsSelected": null,
+          "repeatedSelected": null,
+          "studyAbroadSelected": null,
+          "advancedPlacementSelected": null,
+          "otherTestSelected": null,
+          "labs": [],
+          "labAndLecture": [],
+          "labSelected": null,
+          "dpdSelected": null,
+          "dpdProfessional": [],
+          "labOnlySelected": null,
+          "labAndLectureSelected": null,
+          "dpdScienceSelected": null,
+          "dpdProfessionalSelected": null
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "posts": [
+  {
+   "request": {
+    "sectionId": 2013508,
+    "optOut": false,
+    "name": "Graduate Entry Prespecialty in Nursing (GEPN) / Master of Science in Nursing (MSN) Program Prerequisites",
+    "programSelectedId": 0,
+    "courseworkCompleted": true,
+    "prerequisites": [
+     {
+      "id": 402686,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 1,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594266,
+        "courseTitle": "INTRO TO HUMAN ANATOMY",
+        "courseCode": "ANATOMY 001",
+        "collegeName": "LOS ANGELES CITY COLLEGE",
+        "grade": "B",
+        "gradeValue": "4.00",
+        "term": "Spring",
+        "termYear": "2026"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402684,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 2,
+      "minGradeAlphabetic": "B",
+      "course": [],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402687,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 3,
+      "minGradeAlphabetic": "B",
+      "course": [],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402685,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 4,
+      "minGradeAlphabetic": "B",
+      "course": [],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     }
+    ],
+    "activityCompleted": false
+   },
+   "response": {
+    "sectionId": 2013508,
+    "optOut": false,
+    "name": "Graduate Entry Prespecialty in Nursing (GEPN) / Master of Science in Nursing (MSN) Program Prerequisites",
+    "programSelectedId": 0,
+    "courseworkCompleted": true,
+    "prerequisites": [
+     {
+      "id": 402686,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 1,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594266,
+        "collegeName": "LOS ANGELES CITY COLLEGE",
+        "termType": null,
+        "term": "Spring",
+        "termYear": "2026",
+        "academicStatus": null,
+        "courseCode": "ANATOMY 001",
+        "courseTitle": "INTRO TO HUMAN ANATOMY",
+        "grade": "B",
+        "gradeValue": "4.00"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402684,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 2,
+      "minGradeAlphabetic": "B",
+      "course": [],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402687,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 3,
+      "minGradeAlphabetic": "B",
+      "course": [],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402685,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 4,
+      "minGradeAlphabetic": "B",
+      "course": [],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     }
+    ],
+    "activityCompleted": false
+   }
+  },
+  {
+   "request": {
+    "sectionId": 2013508,
+    "optOut": false,
+    "name": "Graduate Entry Prespecialty in Nursing (GEPN) / Master of Science in Nursing (MSN) Program Prerequisites",
+    "programSelectedId": 0,
+    "courseworkCompleted": true,
+    "prerequisites": [
+     {
+      "id": 402686,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 1,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594266,
+        "courseTitle": "INTRO TO HUMAN ANATOMY",
+        "courseCode": "ANATOMY 001",
+        "collegeName": "LOS ANGELES CITY COLLEGE",
+        "grade": "B",
+        "gradeValue": "4.00",
+        "term": "Spring",
+        "termYear": "2026"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402684,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 2,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594243,
+        "courseTitle": "INTRO TO HUMAN PHYS",
+        "courseCode": "PHYSIOL 001",
+        "collegeName": "LOS ANGELES HARBOR COLLEGE",
+        "grade": "B",
+        "gradeValue": "4.00",
+        "term": "Spring",
+        "termYear": "2026"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402687,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 3,
+      "minGradeAlphabetic": "B",
+      "course": [],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402685,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 4,
+      "minGradeAlphabetic": "B",
+      "course": [],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     }
+    ],
+    "activityCompleted": false
+   },
+   "response": {
+    "sectionId": 2013508,
+    "optOut": false,
+    "name": "Graduate Entry Prespecialty in Nursing (GEPN) / Master of Science in Nursing (MSN) Program Prerequisites",
+    "programSelectedId": 0,
+    "courseworkCompleted": true,
+    "prerequisites": [
+     {
+      "id": 402686,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 1,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594266,
+        "collegeName": "LOS ANGELES CITY COLLEGE",
+        "termType": null,
+        "term": "Spring",
+        "termYear": "2026",
+        "academicStatus": null,
+        "courseCode": "ANATOMY 001",
+        "courseTitle": "INTRO TO HUMAN ANATOMY",
+        "grade": "B",
+        "gradeValue": "4.00"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402684,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 2,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594243,
+        "collegeName": "LOS ANGELES HARBOR COLLEGE",
+        "termType": null,
+        "term": "Spring",
+        "termYear": "2026",
+        "academicStatus": null,
+        "courseCode": "PHYSIOL 001",
+        "courseTitle": "INTRO TO HUMAN PHYS",
+        "grade": "B",
+        "gradeValue": "4.00"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402687,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 3,
+      "minGradeAlphabetic": "B",
+      "course": [],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402685,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 4,
+      "minGradeAlphabetic": "B",
+      "course": [],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     }
+    ],
+    "activityCompleted": false
+   }
+  },
+  {
+   "request": {
+    "sectionId": 2013508,
+    "optOut": false,
+    "name": "Graduate Entry Prespecialty in Nursing (GEPN) / Master of Science in Nursing (MSN) Program Prerequisites",
+    "programSelectedId": 0,
+    "courseworkCompleted": true,
+    "prerequisites": [
+     {
+      "id": 402686,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 1,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594266,
+        "courseTitle": "INTRO TO HUMAN ANATOMY",
+        "courseCode": "ANATOMY 001",
+        "collegeName": "LOS ANGELES CITY COLLEGE",
+        "grade": "B",
+        "gradeValue": "4.00",
+        "term": "Spring",
+        "termYear": "2026"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402684,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 2,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594243,
+        "courseTitle": "INTRO TO HUMAN PHYS",
+        "courseCode": "PHYSIOL 001",
+        "collegeName": "LOS ANGELES HARBOR COLLEGE",
+        "grade": "B",
+        "gradeValue": "4.00",
+        "term": "Spring",
+        "termYear": "2026"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402687,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 3,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594268,
+        "courseTitle": "Fundamentals of Chemistry I",
+        "courseCode": "CHEM 051",
+        "collegeName": "LOS ANGELES VALLEY COLLEGE",
+        "grade": null,
+        "gradeValue": "5.00",
+        "term": "Fall",
+        "termYear": "2026"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402685,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 4,
+      "minGradeAlphabetic": "B",
+      "course": [],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     }
+    ],
+    "activityCompleted": false
+   },
+   "response": {
+    "sectionId": 2013508,
+    "optOut": false,
+    "name": "Graduate Entry Prespecialty in Nursing (GEPN) / Master of Science in Nursing (MSN) Program Prerequisites",
+    "programSelectedId": 0,
+    "courseworkCompleted": true,
+    "prerequisites": [
+     {
+      "id": 402686,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 1,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594266,
+        "collegeName": "LOS ANGELES CITY COLLEGE",
+        "termType": null,
+        "term": "Spring",
+        "termYear": "2026",
+        "academicStatus": null,
+        "courseCode": "ANATOMY 001",
+        "courseTitle": "INTRO TO HUMAN ANATOMY",
+        "grade": "B",
+        "gradeValue": "4.00"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402684,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 2,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594243,
+        "collegeName": "LOS ANGELES HARBOR COLLEGE",
+        "termType": null,
+        "term": "Spring",
+        "termYear": "2026",
+        "academicStatus": null,
+        "courseCode": "PHYSIOL 001",
+        "courseTitle": "INTRO TO HUMAN PHYS",
+        "grade": "B",
+        "gradeValue": "4.00"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402687,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 3,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594268,
+        "collegeName": "LOS ANGELES VALLEY COLLEGE",
+        "termType": null,
+        "term": "Fall",
+        "termYear": "2026",
+        "academicStatus": null,
+        "courseCode": "CHEM 051",
+        "courseTitle": "Fundamentals of Chemistry I",
+        "grade": null,
+        "gradeValue": "5.00"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402685,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 4,
+      "minGradeAlphabetic": "B",
+      "course": [],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     }
+    ],
+    "activityCompleted": false
+   }
+  },
+  {
+   "request": {
+    "sectionId": 2013508,
+    "optOut": false,
+    "name": "Graduate Entry Prespecialty in Nursing (GEPN) / Master of Science in Nursing (MSN) Program Prerequisites",
+    "programSelectedId": 0,
+    "courseworkCompleted": true,
+    "prerequisites": [
+     {
+      "id": 402686,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 1,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594266,
+        "courseTitle": "INTRO TO HUMAN ANATOMY",
+        "courseCode": "ANATOMY 001",
+        "collegeName": "LOS ANGELES CITY COLLEGE",
+        "grade": "B",
+        "gradeValue": "4.00",
+        "term": "Spring",
+        "termYear": "2026"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402684,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 2,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594243,
+        "courseTitle": "INTRO TO HUMAN PHYS",
+        "courseCode": "PHYSIOL 001",
+        "collegeName": "LOS ANGELES HARBOR COLLEGE",
+        "grade": "B",
+        "gradeValue": "4.00",
+        "term": "Spring",
+        "termYear": "2026"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402687,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 3,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594268,
+        "courseTitle": "Fundamentals of Chemistry I",
+        "courseCode": "CHEM 051",
+        "collegeName": "LOS ANGELES VALLEY COLLEGE",
+        "grade": null,
+        "gradeValue": "5.00",
+        "term": "Fall",
+        "termYear": "2026"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402685,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 4,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594267,
+        "courseTitle": "GENERAL MICROBIOLOGY",
+        "courseCode": "MICRO 020",
+        "collegeName": "LOS ANGELES CITY COLLEGE",
+        "grade": "B",
+        "gradeValue": "4.00",
+        "term": "Spring",
+        "termYear": "2026"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     }
+    ],
+    "activityCompleted": false
+   },
+   "response": {
+    "sectionId": 2013508,
+    "optOut": false,
+    "name": "Graduate Entry Prespecialty in Nursing (GEPN) / Master of Science in Nursing (MSN) Program Prerequisites",
+    "programSelectedId": 0,
+    "courseworkCompleted": true,
+    "prerequisites": [
+     {
+      "id": 402686,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 1,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594266,
+        "collegeName": "LOS ANGELES CITY COLLEGE",
+        "termType": null,
+        "term": "Spring",
+        "termYear": "2026",
+        "academicStatus": null,
+        "courseCode": "ANATOMY 001",
+        "courseTitle": "INTRO TO HUMAN ANATOMY",
+        "grade": "B",
+        "gradeValue": "4.00"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402684,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 2,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594243,
+        "collegeName": "LOS ANGELES HARBOR COLLEGE",
+        "termType": null,
+        "term": "Spring",
+        "termYear": "2026",
+        "academicStatus": null,
+        "courseCode": "PHYSIOL 001",
+        "courseTitle": "INTRO TO HUMAN PHYS",
+        "grade": "B",
+        "gradeValue": "4.00"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402687,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 3,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594268,
+        "collegeName": "LOS ANGELES VALLEY COLLEGE",
+        "termType": null,
+        "term": "Fall",
+        "termYear": "2026",
+        "academicStatus": null,
+        "courseCode": "CHEM 051",
+        "courseTitle": "Fundamentals of Chemistry I",
+        "grade": null,
+        "gradeValue": "5.00"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     },
+     {
+      "id": 402685,
+      "name": null,
+      "description": null,
+      "example": "",
+      "minGrade": 3,
+      "minCredits": 4,
+      "maxNumber": null,
+      "sortId": 4,
+      "minGradeAlphabetic": "B",
+      "course": [
+       {
+        "id": 240594267,
+        "collegeName": "LOS ANGELES CITY COLLEGE",
+        "termType": null,
+        "term": "Spring",
+        "termYear": "2026",
+        "academicStatus": null,
+        "courseCode": "MICRO 020",
+        "courseTitle": "GENERAL MICROBIOLOGY",
+        "grade": "B",
+        "gradeValue": "4.00"
+       }
+      ],
+      "tests": [],
+      "coursePrerequisiteAssignments": [],
+      "optOut": null,
+      "courseMatched": null
+     }
+    ],
+    "activityCompleted": false
+   }
+  }
+ ]
+}

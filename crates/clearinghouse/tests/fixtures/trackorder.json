@@ -1,0 +1,79 @@
+{
+ "status": "success",
+ "TrackOrderInfo": {
+  "trackInfo": {
+   "allowCancelOrderAllowed": "N",
+   "allowSignPaperlessConsentAllowed": "N",
+   "allowGetPaperConsentAllowed": "N",
+   "OrderSummary": {
+    "studentInfo": {
+     "firstName": "<removed>",
+     "middleName": "<removed>",
+     "lastName": "<removed>",
+     "ssn": "<removed>",
+     "street1": "<removed>",
+     "street2": "<removed>",
+     "city": "<removed>",
+     "state": "<removed>",
+     "zip": "<removed>",
+     "country": "<removed>",
+     "phone": "<removed>",
+     "email": "<removed>"
+    },
+    "orderHeader": {
+     "toOrderId": 97852158,
+     "toScprofilId": 920,
+     "referMethod": "P",
+     "orderDate": "10/10/2026 4:30 PM ET",
+     "reqIdentifierType": 0,
+     "totalFee": 12.9,
+     "feePathType": "P"
+    },
+    "statusInfo": {
+     "current": {
+      "status": "L",
+      "statusTxt": "Consent Form Received",
+      "createdTimestamp": "10/10/2026 4:30 PM ET",
+      "multipleHoldInfo": []
+     },
+     "history": []
+    },
+    "schoolInfo": {
+     "ficeCode": "00137900",
+     "schlName": "Connecticut College",
+     "hideOpFee": "N",
+     "toSchoolHeader": {
+      "bgColor": "#002f5f",
+      "headerStyle": "font-family: arial,sans-serif; font-size: 16px; font-weight: bold; color: white;",
+      "subHeaderStyle": "font-family: arial,sans-serif; font-size: 16px; font-weight: normal; color: white;",
+      "imgWidth": "400",
+      "imgHeight": "99",
+      "alternateText": "CONNECTICUT COLLEGE"
+     }
+    }
+   },
+   "recipients": [
+    {
+     "toRecipientId": 88330236,
+     "toOrderId": 97852158,
+     "sendToType": "S",
+     "organization": "AZUSA PACIFIC UNIVERSITY",
+     "timestamp": "10/10/2026 4:30 PM ET",
+     "deliveryMethodTxt": "Electronic Exchange",
+     "totalFee": 12.9,
+     "totalReducedFee": 0.0,
+     "statusInfo": {
+      "current": {
+       "status": "L",
+       "statusTxt": "Paperless Consent Form Received",
+       "createdTimestamp": "10/10/2026 4:30 PM ET",
+       "multipleHoldInfo": []
+      },
+      "history": []
+     },
+     "exchangeNetworkTypeCode": "ETX"
+    }
+   ]
+  }
+ }
+}

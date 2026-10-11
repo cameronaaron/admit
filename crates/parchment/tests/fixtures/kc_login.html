@@ -1,0 +1,89 @@
+<!-- Live, signed out, 2026-10-10 (GET of next-auth's authorize URL):
+     session_code, tab_id, client_data and the auth-session hash replaced.
+     The form is drawn by bundle/login.js from commonProps: no <form>. -->
+    <!DOCTYPE html>
+    <html class="login-pf" lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="robots" content="noindex, nofollow">
+
+                <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <title>Sign in to Parchment</title>
+        <link rel="icon" href="https://cdn.parchment.com/assets/images/parchment-icon.ico" />
+        <meta name="msapplication-TileColor" content="#0093b4">
+        <meta name="theme-color" content="#ffffff">
+                <link href="/auth/resources/hg2yn/common/keycloak/vendor/patternfly-v4/patternfly.min.css?v=3.7.0" rel="stylesheet" />
+                <link href="/auth/resources/hg2yn/common/keycloak/vendor/patternfly-v3/css/patternfly.min.css?v=3.7.0" rel="stylesheet" />
+                <link href="/auth/resources/hg2yn/common/keycloak/vendor/patternfly-v3/css/patternfly-additions.min.css?v=3.7.0" rel="stylesheet" />
+                <link href="/auth/resources/hg2yn/common/keycloak/lib/pficon/pficon.css?v=3.7.0" rel="stylesheet" />
+                <link href="/auth/resources/hg2yn/login/parchment/css/login.css?v=3.7.0" rel="stylesheet" />
+                <link href="/auth/resources/hg2yn/login/parchment/css/styles.css?v=3.7.0" rel="stylesheet" />
+        <script type="text/javascript">
+            var LoginResourcePublicPath = "\/auth/resources/hg2yn/login/parchment/bundle/";
+            var commonProps = {
+                isAppInitiatedAction: false,
+                realm: {"name": "parchment","displayName": "Parchment","displayNameHtml": "<div class=\"kc-logo-text\" style=\"background: none;\"><img src=\"https://cdn.parchment.com/assets/images/parchment-logo.svg\" alt=\"Parchment By Instructure\" /><\/div>","identityFederationEnabled": true,"registrationAllowed": false,"registrationEmailAsUsername": true,"loginWithEmailAllowed": true,"resetPasswordAllowed": true,"rememberMe": false,"internationalizationEnabled": false,"password": true},
+                social: {"providers": []},
+                url: {"realm": null,"theme": null,"baseURI": null,"actionuri": null,"loginAction": "https://auth.parchment.com/auth/realms/parchment/login-actions/authenticate?session_code=SC&execution=fdb6f5d0-a8ca-4fe3-9ce5-5318f1d61f02&client_id=learner-portal-ui&tab_id=TAB&client_data=CD","loginUrl": "\/auth/realms/parchment/login-actions/authenticate?client_id=learner-portal-ui&tab_id=TAB&client_data=CD","loginRestartFlowUrl": "\/auth/realms/parchment/login-actions/restart?client_id=learner-portal-ui&tab_id=TAB&client_data=CD&skip_logout=false","hasAction": true,"registrationAction": "https://auth.parchment.com/auth/realms/parchment/login-actions/authenticate?session_code=SC&execution=fdb6f5d0-a8ca-4fe3-9ce5-5318f1d61f02&client_id=learner-portal-ui&tab_id=TAB&client_data=CD","registrationUrl": "\/auth/realms/parchment/login-actions/registration?client_id=learner-portal-ui&tab_id=TAB&client_data=CD","loginResetCredentialsUrl": "\/auth/realms/parchment/login-actions/reset-credentials?client_id=learner-portal-ui&tab_id=TAB&client_data=CD","firstBrokerLoginUrl": "\/auth/realms/parchment/login-actions/first-broker-login?client_id=learner-portal-ui&tab_id=TAB&client_data=CD","resourcesUrl": "\/auth/resources/hg2yn?client_id=learner-portal-ui&tab_id=TAB&client_data=CD/login/parchment","oauthAction": "\/auth/realms/parchment/login-actions/authenticate","resourcesPath": "\/auth/resources/hg2yn/login/parchment","resourcesCommonPath": "\/auth/resources/hg2yn/common/keycloak",},
+                requiredActionsUrl: null,
+                auth: { "selectedCredential": null },
+                properties: {"parent": "keycloak","kcAuthenticatorOTPClass": "fa fa-mobile list-view-pf-icon-lg","kcWebAuthnDefaultIcon": "pficon pficon-key","kcLogoIdP-stackoverflow": "fa fa-stack-overflow","kcLogoIdP-microsoft": "fa fa-windows","kcAuthenticatorRecoveryAuthnCodesClass": "fa fa-list list-view-pf-icon-lg","kcInputClassRadioCheckboxLabelDisabled": "pf-m-disabled","kcSelectAuthListItemIconClass": "pf-l-split__item select-auth-box-icon","kcWebAuthnBLE": "fa fa-bluetooth-b","meta": "viewport==width=device-width,initial-scale=1","styles": "css/login.css css/styles.css","kcFormPasswordVisibilityButtonClass": "pf-c-button pf-m-control","kcLogoIdP-gitlab": "fa fa-gitlab","kcFormAreaClass": "col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2","kcInputClassRadioLabel": "pf-c-radio__label","kcLogoLink": "http://www.keycloak.org","kcLoginOTPListItemTitleClass": "pf-c-tile__title","kcLoginOTPListInputClass": "pf-c-tile__input","kcWebAuthnUSB": "fa fa-usb","kcWebAuthnKeyIcon": "pficon pficon-key","kcCommonLogoIdP": "kc-social-provider-logo kc-social-gray","stylesCommon": "vendor/patternfly-v4/patternfly.min.css vendor/patternfly-v3/css/patternfly.min.css vendor/patternfly-v3/css/patternfly-additions.min.css lib/pficon/pficon.css","kcRecoveryCodesActions": "kc-recovery-codes-actions","kcFormSocialAccountSectionClass": "kc-social-section kc-social-gray","kcLogoIdP-instagram": "fa fa-instagram","kcHeaderClass": "login-pf-page-header","kcLabelWrapperClass": "col-xs-12 col-sm-12 col-md-12 col-lg-12","kcFormPasswordVisibilityIconShow": "fa fa-eye","kcButtonBlockClass": "pf-m-block","kcLocaleClass": "col-xs-12 col-sm-1","kcInputClassCheckboxInput": "pf-c-check__input","kcFeedbackErrorIcon": "fa fa-fw fa-exclamation-circle","kcInputLargeClass": "input-lg","kcRecoveryCodesList": "kc-recovery-codes-list","kcAlertTitleClass": "pf-c-alert__title kc-feedback-text","kcLogoIdP-twitter": "fa fa-twitter","kcResetFlowIcon": "pficon pficon-arrow fa","kcFormSocialAccountListGridClass": "pf-l-grid kc-social-grid","kcButtonDefaultClass": "btn-default","kcFormGroupErrorClass": "has-error","kcSelectAuthListItemDescriptionClass": "pf-l-stack__item select-auth-box-desc","import": "common/keycloak","kcWebAuthnInternal": "pficon pficon-key","kcCheckClass": "pf-c-check","kcLogoClass": "login-pf-brand","kcLoginOTPListItemIconClass": "fa fa-mobile","kcSignUpClass": "login-pf-signup","kcFormCardClass": "card-pf","kcInputClass": "pf-c-form-control","kcFormGroupClass": "form-group","kcFormPasswordVisibilityIconHide": "fa fa-eye-slash","kcFormSocialAccountGridItem": "pf-l-grid__item","kcLabelClass": "pf-c-form__label pf-c-form__label-text","kcLogoIdP-facebook": "fa fa-facebook","kcLogoIdP-bitbucket": "fa fa-bitbucket","kcAuthenticatorWebAuthnClass": "fa fa-key list-view-pf-icon-lg","kcSelectAuthListItemClass": "pf-l-stack__item select-auth-box-parent pf-l-split","kcLoginOTPListItemHeaderClass": "pf-c-tile__header","kcLocaleItemClass": "pf-c-dropdown__menu-item","kcLoginOTPListItemIconBodyClass": "pf-c-tile__icon","kcInputHelperTextAfterClass": "pf-c-form__helper-text pf-c-form__helper-text-after","kcFormClass": "form-horizontal","kcSelectAuthListClass": "pf-l-stack select-auth-container","kcRecoveryCodesWarning": "kc-recovery-codes-warning","kcFormSettingClass": "login-pf-settings","kcInputWrapperClass": "col-xs-12 col-sm-12 col-md-12 col-lg-12","kcSelectAuthListItemArrowIconClass": "fa fa-angle-right fa-lg","kcFeedbackAreaClass": "col-md-12","kcLogoIdP-google": "fa fa-google","themeVersion": "3.7.0","kcCheckLabelClass": "pf-c-check__label","kcSelectAuthListItemFillClass": "pf-l-split__item pf-m-fill","kcAuthenticatorDefaultClass": "fa fa-list list-view-pf-icon-lg","kcFormButtonsClass": "col-xs-12 col-sm-12 col-md-12 col-lg-12","kcAuthenticatorWebAuthnPasswordlessClass": "fa fa-key list-view-pf-icon-lg","kcSelectAuthListItemHeadingClass": "pf-l-stack__item select-auth-box-headline pf-c-title","kcInfoAreaClass": "col-xs-12 col-sm-4 col-md-4 col-lg-5 details","kcContainerClass": "container-fluid","kcSelectAuthListItemTitle": "select-auth-box-paragraph","abstract": "true","kcHtmlClass": "login-pf","locales": "ar,az,ca,cs,da,de,el,en,es,eu,fa,fr,fi,hr,hu,hy,id,it,ja,kk,ko,ky,lt,lv,nl,no,pl,pt,pt-BR,ro,ru,sk,sl,sv,th,tr,uk,vi,zh-CN,zh-TW","kcLogoIdP-openshift-v4": "pf-icon pf-icon-openshift","kcWebAuthnUnknownIcon": "pficon pficon-key unknown-transport-class","kcFormSocialAccountNameClass": "kc-social-provider-name","kcInputClassRadio": "pf-c-radio","kcFeedbackInfoIcon": "fa fa-fw fa-info-circle","kcFormGroupHeader": "pf-c-form__group","kcAlertClass": "pf-c-alert pf-m-inline","kcFormSocialAccountLinkClass": "pf-c-login__main-footer-links-item-link","kcLocaleMainClass": "pf-c-dropdown","kcInputGroup": "pf-c-input-group","kcTextareaClass": "form-control","kcButtonClass": "pf-c-button","kcWebAuthnNFC": "fa fa-wifi","kcInputErrorMessageClass": "pf-c-form__helper-text pf-m-error required kc-feedback-text","kcFormSocialAccountListClass": "pf-c-login__main-footer-links kc-social-links","kcAuthenticatorPasswordClass": "fa fa-unlock list-view-pf-icon-lg","kcCheckInputClass": "pf-c-check__input","kcLogoIdP-linkedin": "fa fa-linkedin","kcFeedbackWarningIcon": "fa fa-fw fa-exclamation-triangle","kcSelectAuthListItemIconPropertyClass": "fa-2x select-auth-box-icon-properties","kcFeedbackSuccessIcon": "fa fa-fw fa-check-circle","kcLoginOTPListClass": "pf-c-tile","kcSrOnlyClass": "sr-only","kcSelectAuthListItemBodyClass": "pf-l-split__item pf-l-stack","kcSelectAuthListItemArrowClass": "pf-l-split__item select-auth-box-arrow","kcContentClass": "col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3","kcLoginClass": "login-pf-page","kcButtonLargeClass": "btn-lg","kcLocaleListClass": "pf-c-dropdown__menu pf-m-align-right","scripts": "bundle/login.js","kcFormSocialAccountListButtonDisabledClass": "pf-m-aria-disabled","kcLogoIdP-paypal": "fa fa-paypal","kcInputClassCheckbox": "pf-c-check","kcRecoveryCodesConfirmation": "kc-recovery-codes-confirmation","kcInputClassRadioInput": "pf-c-radio__input","kcFormSocialAccountListButtonClass": "pf-c-button pf-m-control pf-m-block kc-social-item kc-social-gray","kcInputClassCheckboxLabel": "pf-c-check__label","kcFormOptionsClass": "col-xs-12 col-sm-12 col-md-12 col-lg-12","kcFormHeaderClass": "login-pf-header","kcButtonPrimaryClass": "pf-m-primary","kcInputHelperTextBeforeClass": "pf-c-form__helper-text pf-c-form__helper-text-before","kcLogoIdP-github": "fa fa-github"}
+
+            }
+        </script>
+                <script src="/auth/resources/hg2yn/login/parchment/bundle/login.js?v=3.7.0" type="text/javascript"></script>
+        <script type="module">
+            import { startSessionPolling } from "/auth/resources/hg2yn/login/parchment/js/authChecker.js?v=3.7.0";
+
+            startSessionPolling(
+                "/auth/realms/parchment/login-actions/restart?client_id=learner-portal-ui&tab_id=TAB&client_data=CD&skip_logout=true"
+            );
+        </script>
+            <script type="module">
+                import { checkAuthSession } from "/auth/resources/hg2yn/login/parchment/js/authChecker.js?v=3.7.0";
+
+                checkAuthSession(
+                    "TOKEN"
+                );
+            </script>
+    </head>
+
+    <body class="">
+    <div class="login-pf-page">
+        <div id="kc-header" class="login-pf-page-header">
+            <div id="kc-header-wrapper"
+                 class=""><div class="kc-logo-text" style="background:none"><img src="https://cdn.parchment.com/assets/images/parchment-logo.svg" alt="Parchment By Instructure" /></div></div>
+        </div>
+        <div class="card-pf">
+            <header class="login-pf-header">
+                        <h1 id="kc-page-title">        Sign in to your account
+
+</h1>
+            </header>
+            <div id="kc-content" role="main">
+                <div id="kc-content-wrapper">
+
+
+        <div data-react-component="LoginForm"
+             data-react-props="commonProps"
+             data-username-edit-disabled="false"
+             data-registration-disabled="false"
+             data-login="{&quot;username&quot;: null,&quot;password&quot;: null,&quot;passwordToken&quot;: null,&quot;rememberMe&quot;: null}"
+             data-msg="{&quot;username&quot;: &quot;Username&quot;,&quot;doLogIn&quot;: &quot;Sign In&quot;,&quot;usernameOrEmail&quot;: &quot;Username or email&quot;,&quot;email&quot;: &quot;Email&quot;,&quot;password&quot;: &quot;Password&quot;,&quot;rememberMe&quot;: &quot;Remember me&quot;,&quot;doForgotPassword&quot;: &quot;Forgot Password?&quot;,&quot;noAccount&quot;: &quot;New user?&quot;,&quot;doRegister&quot;: &quot;Register&quot;,&quot;showPassword&quot;: &quot;Show password&quot;,&quot;hidePassword&quot;: &quot;Hide password&quot;}"
+             data-username-hidden="false"
+             data-input-error=""
+        ></div>
+
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </body>
+    </html>

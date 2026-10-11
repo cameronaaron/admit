@@ -1,0 +1,46 @@
+[workspace]
+resolver = "3"
+members = ["crates/*", "fuzz"]
+
+[workspace.package]
+edition = "2024"
+version = "0.1.0"
+publish = false
+license = "AGPL-3.0-or-later"
+
+[workspace.dependencies]
+admit-domain = { path = "crates/domain" }
+admit-sources = { path = "crates/sources" }
+admit-liaison = { path = "crates/liaison" }
+admit-laccd = { path = "crates/laccd" }
+admit-website = { path = "crates/website" }
+admit-html = { path = "crates/html" }
+admit-slate = { path = "crates/slate" }
+admit-clearinghouse = { path = "crates/clearinghouse" }
+admit-parchment = { path = "crates/parchment" }
+
+anyhow = "1.0.104"
+clap = { version = "4.6.6", features = ["derive"] }
+ring = "0.17.14"
+reqwest = { version = "0.13.5", default-features = false, features = ["json", "multipart", "query", "rustls"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.151"
+thiserror = "2.0.21"
+time = { version = "0.3.55", features = ["parsing", "macros", "local-offset"] }
+tokio = { version = "1.53.1", features = ["macros", "rt-multi-thread"] }
+toml = "1.1.6"
+wiremock = "0.6.5"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+unwrap_used = "warn"
+
+# `just fuzz`: release speed, with the overflow and debug checks a fuzz
+# run should trip.
+[profile.fuzz]
+inherits = "release"
+overflow-checks = true
+debug-assertions = true
+debug = "line-tables-only"

@@ -1,0 +1,8 @@
+loadGrouplets('/cs/csprd/cache/PT_WORKER_MIN_1.js',5);
+ptLoadingStatus_empty(0);
+setupTimeout2();
+processing_win5(0,3000);if (typeof reOrderSmartSelects === 'function') {
+    reOrderSmartSelects('DERIVED_SSTSRPT_REPORT_REQUEST_PB','Y','N','N');
+}
+]]></GENSCRIPT><GENSCRIPT id='onloadScript'><![CDATA[window.open('https://csprd.laccd.edu/psc/csprd_5/view/%7bV2%7dREDACTED/LAC_SR_TSRPT.pdf','','');]]></GENSCRIPT>
+<FIELD id='win5div$ICField1' class='ps_box-group psc_layout'  ><![CDATA[<div      class='ps_box-

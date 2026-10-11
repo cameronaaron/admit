@@ -1,0 +1,17 @@
+/target
+# Browser captures carry live session cookies (and the PDFs carry personal identifiers).
+*.har
+*.pdf
+# Synthetic test inputs carry no personal data; tests compile them in.
+!crates/**/tests/fixtures/*.pdf
+.env
+/reports
+/captures
+.DS_Store
+# A replace saves the file it deletes here (documents.rs `BACKUP`).
+/profile/documents.replaced/
+
+# Your own profile and configuration are personal; keep them out of this
+# repository (examples/ shows the shape).
+/profile/
+/admit.toml

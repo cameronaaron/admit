@@ -1,0 +1,16 @@
+# A starting configuration; paths are relative to this file.
+profile = "profile"
+
+# One [[portal]] per application system. Every Liaison CAS (NursingCAS,
+# PharmCAS, ...) is kind = "liaison" with its own cycle URL.
+[[portal]]
+name = "nursingcas"
+kind = "liaison"
+base_url = "https://nursingcas2027.cas.myliaison.com"
+# `pbpaste | admit session set` stores the Cookie header in the Keychain;
+# this variable, when set, takes precedence.
+cookie_env = "NURSINGCAS_COOKIE"
+
+# `admit website`: the profile against the schema.org JSON-LD this site publishes.
+[website]
+url = "https://example.org"

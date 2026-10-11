@@ -1,0 +1,78 @@
+{
+ "upload": {
+  "path": "/programMaterials/79439764/documents/9540461/2013507/1/In%20Progress/0",
+  "file_part": "Content-Disposition: form-data; name=\"file\"; filename=\"Authorization.pdf\"\r\nContent-Type: application/pdf",
+  "model": {
+   "sectionId": 2013507,
+   "instructions": "<p>Please do not upload supplemental materials (such as scans of diplomas, licenses, certifications, recommendations, etc.) to this section. Any additional materials will be deleted from your application.</p>",
+   "statusCompleted": false,
+   "optOut": false,
+   "showOptionalDocMessage": false,
+   "showRequiredDocMessage": false,
+   "documents": [
+    {
+     "id": 9540461,
+     "attachmentType": "CV/Resume",
+     "required": true,
+     "description": "Please provide a current résumé or curriculum vitae (2 pages maximum, do not include personal photographs).",
+     "sortId": 1,
+     "ruleApplied": false,
+     "attachment": null
+    }
+   ]
+  },
+  "response": {
+   "id": 26677663,
+   "fileName": "Authorization.pdf",
+   "uploadDate": "2026-10-07",
+   "serviceResponseDTO": null
+  }
+ },
+ "delete": {
+  "path": "/programMaterials/79439764/documents/9540461/26677663/2013507/1/INCOMPLETE",
+  "status": 204
+ },
+ "before": {
+  "sectionId": 2013507,
+  "instructions": "<p>Please do not upload supplemental materials (such as scans of diplomas, licenses, certifications, recommendations, etc.) to this section. Any additional materials will be deleted from your application.</p>",
+  "statusCompleted": false,
+  "optOut": false,
+  "showOptionalDocMessage": false,
+  "showRequiredDocMessage": false,
+  "documents": [
+   {
+    "id": 9540461,
+    "attachmentType": "CV/Resume",
+    "required": true,
+    "description": "Please provide a current résumé or curriculum vitae (2 pages maximum, do not include personal photographs).",
+    "sortId": 1,
+    "ruleApplied": false,
+    "attachment": null
+   }
+  ]
+ },
+ "after": {
+  "sectionId": 2013507,
+  "instructions": "<p>Please do not upload supplemental materials (such as scans of diplomas, licenses, certifications, recommendations, etc.) to this section. Any additional materials will be deleted from your application.</p>",
+  "statusCompleted": false,
+  "optOut": false,
+  "showOptionalDocMessage": false,
+  "showRequiredDocMessage": false,
+  "documents": [
+   {
+    "id": 9540461,
+    "attachmentType": "CV/Resume",
+    "required": true,
+    "description": "Please provide a current résumé or curriculum vitae (2 pages maximum, do not include personal photographs).",
+    "sortId": 1,
+    "ruleApplied": false,
+    "attachment": {
+     "id": 26677663,
+     "fileName": "Authorization.pdf",
+     "uploadDate": 1791425479640
+    }
+   }
+  ]
+ },
+ "note": "Yale Documents, 2026-10-07 (nursingcas2027 HAR 33): GET before, the upload of Authorization.pdf (file bytes not kept), GET after, the delete."
+}
